@@ -27,8 +27,6 @@ Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as
 
 ![Quality Songs Per Album](./images/quality-songs-all-bands.png)
 
-![Quality Songs Per Album](./images/quality-songs-all-bands.png)
-
 ## Who uses Rock-Rankers?
 
 Rock-rankers is for developers building streaming apps and sites for rock fans who love to analyze and debate music.
