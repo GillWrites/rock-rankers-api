@@ -35,28 +35,6 @@ Empower your fanbase to search for their favorite bands and albums by release da
 
 ![Beatles](./images/%20quality-songs-chart.png)
 
-For example, need a reminder of the top album of the sixties? Rock-rankers has you covered:
-
- ```shell
-   curl "http://localhost:3000/albums?global-album-ranking=1&release-date_gte=1960&release-date_lte=1969"
-   ```
-
-   **Sample response**
-
-```json
-   [
-     {
-       "id": 1,
-       "name": "The Beatles",
-       "album": "Rubber Soul",
-       "release-date": 1965,
-       "album-score": 987,
-       "global-album-ranking": 1,
-       "band-catalog-album-ranking": 1
-     }
-   ]
-```
-
 ## Quick start
 
 Ready to explore more? Follow this tutorial to set up your rock-rankers environment and
