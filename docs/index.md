@@ -5,31 +5,35 @@ nav_order: 1
 description: "Rock-rankers API documentation homepage"
 permalink: /
 ---
-## Rock-rankers API
+<!-- markdownlint-disable MD025 -->
+<!-- markdownlint-disable MD033 -->
+<!-- vale Google.Headings = NO -->
+<h1>
+  <img src="./images/logo.png" alt="Rock-Rankers Logo" width="200" style="vertical-align: middle; margin-right: 10px;"/> Rock-Rankers API
+</h1>
+<!-- markdownlint-enable MD025 MD033 -->
 
-### Where music meets metrics
+## Where music meets metrics
 
-Welcome to Rock-rankers, the ultimate API for rock fans who love data as much as they love music.
+Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as they love music.
 
-## What's rock-rankers?
+![Music image](./images/rendy-novantino-LPpEC2YysUg-unsplash.jpg)
+
+## What's Rock-Rankers?
 
 * Rock-rankers is a lightweight REST API that performs metrics-driven rock music analysis.
-* Built on [JSON Server](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs), it supports
-standard HTTP operations for seamless music app integration.
 * Rock-rankers scores, ranks, and compares bands, albums, and songs.
 * The results are clear, visual, data-driven insights that serious rock fans demand.
 
 ![Quality Songs Per Album](./images/quality-songs-all-bands.png)
 
-## Who uses rock-rankers?
+## Who uses Rock-Rankers?
 
-Developers integrate the Rock-Ranker API to enhance streaming apps and websites with advanced
-music ranking and analysis features. These features create the ultimate music experience true
-music nerds love.
+Rock-rankers is for developers building streaming apps and sites for rock fans who love to analyze and debate music.
 
-## See rock-rankers in action
+## See Rock-Rankers in action
 
-**Check out the power of rock-rankers**
+**Check out the power of Rock-Rankers**
 
 Filter your favorite bands and albums by release dates, album scores/rankings and much more.
 
@@ -64,7 +68,7 @@ make your first-rankers call.
 
 ## Tutorials
 
-Learn how to perform common rock-rankers tasks:
+Learn how to perform common Rock-Rankers tasks:
 
 * [How to retrieve band information](./Tutorials/tutorial-get-band.md)
 * [How to retrieve album information](./Tutorials/tutorial-get-album.md)
@@ -75,13 +79,13 @@ Learn how to perform common rock-rankers tasks:
 
 ### API reference docs
 
- **View rock-rankers resource and endpoints**
+ **View Rock-Rankers resource and endpoints**
 
 * [bands](./API/bands.md)
 * [albums](./API/albums.md)
 * [users](./API/users.md)
 
-**Edit the rock-rankers database**  
+**Edit the Rock-Rankers database**  
 Rock-rankers supports the following typical `HTTP` functions:
 
 | HTTP Method | Operation | Description |
@@ -114,11 +118,11 @@ Rock-rankers supports the following typical `HTTP` functions:
 * [PATCH: partially update a user](./API/patch-user.md)
 * [DELETE: delete a user](./API/delete-user.md)
   
-### View the rock-rankers repo and OpenAPI specification
+### View the Rock-Rankers repo and OpenAPI specification
 
 * [Rock-rankers api repo](https://github.com/drenn08/rock-rankers-api)
 * [View OpenAPI Specification](https://raw.githubusercontent.com/GillWrites/rock-rankers-api/main/api/rock-rankers-spec.yml)
 
-## Contact rock-rankers
+## Contact Rock-Rankers
 
 Ready for an epic music adventure? Rock-rankers would love to hear from you: <hello@rockrankers.com>.
