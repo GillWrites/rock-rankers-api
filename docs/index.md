@@ -19,7 +19,7 @@ standard HTTP operations for seamless music app integration.
 * Rock-rankers scores, ranks, and compares bands, albums, and songs.
 * The results are clear, visual, data-driven insights that serious rock fans demand.
 
-![Quality Songs Per Album](../docs/images/quality-songs-all-bands.png)
+![Quality Songs Per Album](./images/quality-songs-all-bands.png)
 
 ## Who uses rock-rankers?
 
