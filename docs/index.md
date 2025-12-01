@@ -21,21 +21,19 @@ Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as
 
 ## What's Rock-Rankers?
 
-* Rock-rankers is a lightweight REST API that performs metrics-driven rock music analysis.
-* Rock-rankers scores, ranks, and compares bands, albums, and songs.
+* Rock-Rankers is a lightweight REST API that performs metrics-driven rock music analysis.
+* Rock-Rankers scores, ranks, and compares bands, albums, and songs.
 * The results are clear, visual, data-driven insights that serious rock fans demand.
 
 ![Quality Songs Per Album](./images/quality-songs-all-bands.png)
 
 ## Who uses Rock-Rankers?
 
-Rock-rankers is for developers building streaming apps and sites for rock fans who love to analyze and debate music.
+Rock-Rankers is for developers building streaming apps and sites for rock fans who love to analyze and debate music.
 
-## See Rock-Rankers in action
+Empower your fanbase to search for their favorite bands and albums by release dates, album scores/rankings and much more.
 
-**Check out the power of Rock-Rankers**
-
-Filter your favorite bands and albums by release dates, album scores/rankings and much more.
+![Beatles](./images/%20quality-songs-chart.png)
 
 For example, need a reminder of the top album of the sixties? Rock-rankers has you covered:
 
