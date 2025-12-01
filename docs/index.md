@@ -14,12 +14,18 @@ Welcome to Rock-rankers, the ultimate API for rock fans who love data as much as
 ## What's rock-rankers?
 
 * Rock-rankers is a lightweight REST API that performs metrics-driven rock music analysis.
+* Built on [JSON Server](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs), it supports
+standard HTTP operations for seamless music app integration.
 * Rock-rankers scores, ranks, and compares bands, albums, and songs.
 * The results are clear, visual, data-driven insights that serious rock fans demand.
 
+![Quality Songs Per Album](./images/quality-songs-all-bands.png)
+
 ## Who uses rock-rankers?
 
-Rock-rankers is for developers building streaming apps and sites for rock fans who love to analyze and debate music.
+Developers integrate the Rock-Ranker API to enhance streaming apps and websites with advanced
+music ranking and analysis features. These features create the ultimate music experience true
+music nerds love.
 
 ## See rock-rankers in action
 
@@ -49,11 +55,12 @@ For example, need a reminder of the top album of the sixties? Rock-rankers has y
    ]
 ```
 
-## Get started
+## Quick start
 
-Ready to explore more? Follow this tutorial to set up your rock-rankers environment.  
+Ready to explore more? Follow this tutorial to set up your rock-rankers environment and
+make your first-rankers call.
 
-* [rock-rankers environment set-up](./Tutorials/rock-rankers-environment-set-up.md)
+* [Get started with rock-rankers](./Tutorials/rock-rankers-environment-set-up.md)
 
 ## Tutorials
 
@@ -114,4 +121,4 @@ Rock-rankers supports the following typical `HTTP` functions:
 
 ## Contact rock-rankers
 
-Ready for an epic music adventure? Rock-rankers would love to hear from you: hello@rockrankers.com.
+Ready for an epic music adventure? Rock-rankers would love to hear from you: <hello@rockrankers.com>.

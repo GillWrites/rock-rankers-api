@@ -13,4 +13,8 @@ last_updated: "2025-11-22"
 # markdownlint-enable
 ---
 
-coming soon
+why json environment add note about being created for eductional purposes
+
+rockrankers secret sauce
+
+troubleshooting section 
