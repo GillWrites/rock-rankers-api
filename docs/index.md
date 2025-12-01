@@ -62,9 +62,9 @@ For example, need a reminder of the top album of the sixties? Rock-rankers has y
 ## Quick start
 
 Ready to explore more? Follow this tutorial to set up your rock-rankers environment and
-make your first-rankers call.
+make your first Rock-Rankers call.
 
-* [Get started with rock-rankers](./Tutorials/rock-rankers-environment-set-up.md)
+* [Get started with Rock-Rankers](./Tutorials/rock-rankers-environment-set-up.md)
 
 ## Tutorials
 
