@@ -1,7 +1,7 @@
 ---
 # markdownlint-disable
 # vale off
-title: "Get Started with rock-rakers"
+title: "Get Started Tutorial"
 layout: default
 nav_order: 2
 has_children: true
@@ -15,6 +15,6 @@ last_updated: "2025-12-11"
 
 ## Get started tutorial
 
-Follow this tutorial to set up your rock-rankers environment and make your first-rankers call.  
+Follow this tutorial to learn how to do a one-time setup of your rock-rankers environment.  
 
-* [Get started with rock-rankers](./Tutorials/rock-rankers-environment-set-up.md)
+* [rock-rankers environment set-up](./Tutorials/rock-rankers-environment-set-up.md)
