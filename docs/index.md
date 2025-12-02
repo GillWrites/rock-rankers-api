@@ -35,12 +35,16 @@ Empower your fanbase to search for their favorite bands and albums by release da
 
 ![Beatles](./images/%20quality-songs-chart.png)
 
+---
+
 ## Quick start
 
 Ready to explore more? Follow this tutorial to set up your rock-rankers environment and
 make your first Rock-Rankers call.
 
 * [Get started with Rock-Rankers](./Tutorials/rock-rankers-environment-set-up.md)
+
+---
 
 ## Tutorials
 
@@ -50,6 +54,8 @@ Learn how to perform common Rock-Rankers tasks:
 * [How to retrieve album information](./Tutorials/tutorial-get-album.md)
 * [How to filter bands with combined query parameters](./Tutorials/tutorial-get-band-filters.md)
 * [How to filter albums with combined query parameters](./Tutorials/tutorial-get-album-filters.md)
+
+---
 
 ## Learn more
 
@@ -98,6 +104,8 @@ Rock-rankers supports the following typical `HTTP` functions:
 
 * [Rock-rankers api repo](https://github.com/drenn08/rock-rankers-api)
 * [View OpenAPI Specification](https://raw.githubusercontent.com/GillWrites/rock-rankers-api/main/api/rock-rankers-spec.yml)
+
+---
 
 ## Contact Rock-Rankers
 
