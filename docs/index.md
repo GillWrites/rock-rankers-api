@@ -40,6 +40,7 @@ curl -X GET "http://localhost:3000/albums?name=The%20Beatles&global-album-rankin
 ```
 
 **Sample response:**
+
 ```json
 [
   {
