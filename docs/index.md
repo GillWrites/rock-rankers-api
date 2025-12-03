@@ -33,6 +33,8 @@ Rock-Rankers is for developers building streaming apps and sites for rock fans w
 
 Empower your fanbase to search for their favorite bands and albums by release dates, album scores/rankings and much more.
 
+(your content above)
+
 <div style="display: flex; align-items: center; gap: 40px; max-width: 1200px; margin: 40px auto; flex-wrap: wrap;">
   <div style="flex: 1 1 400px; min-width: 300px;">
     <img src="./images/top-5 -albums-by-global-ranking.png" alt="Top 5 Albums by Global Ranking" style="width: 100%; height: auto; border-radius: 8px;">
