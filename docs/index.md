@@ -19,7 +19,7 @@ Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as
 
 ![Music image](./images/rendy-novantino-LPpEC2YysUg-unsplash.jpg)
 
-## What's Rock-Rankers?
+## 🎸 What's Rock-Rankers?
 
 * Rock-Rankers is a lightweight REST API that performs metrics-driven rock music analysis.
 * Rock-Rankers scores, ranks, and compares bands, albums, and songs.
@@ -27,7 +27,7 @@ Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as
 
 ![Quality Songs Per Album](./images/quality-songs-all-bands.png)
 
-## Who uses Rock-Rankers?
+## 🎸 Who uses Rock-Rankers?
 
 Rock-Rankers is for developers building streaming apps and sites for rock fans who love to analyze and debate music.
 
@@ -77,14 +77,14 @@ curl -X GET "http://localhost:3000/albums?name=The%20Beatles&global-album-rankin
   <img src="./images/beatles-chart-resized.png" alt="Top 3 Beatles Albums by Global Ranking" width="700">
 </p>
 
-## Quick start
+## 🚀 Quick start
 
 Ready to explore more? Follow this tutorial to set up your rock-rankers environment and
 make your first Rock-Rankers call.
 
 * [Get started with Rock-Rankers](./Tutorials/rock-rankers-environment-set-up.md)
 
-## Tutorials
+## 🤘 Tutorials
 
 Learn how to perform common Rock-Rankers tasks:
 
@@ -93,7 +93,7 @@ Learn how to perform common Rock-Rankers tasks:
 * [How to filter bands with combined query parameters](./Tutorials/tutorial-get-band-filters.md)
 * [How to filter albums with combined query parameters](./Tutorials/tutorial-get-album-filters.md)
 
-## Learn more
+## 📚 Learn more
 
 ### API reference docs
 
@@ -141,6 +141,6 @@ Rock-rankers supports the following typical `HTTP` functions:
 * [Rock-rankers api repo](https://github.com/drenn08/rock-rankers-api)
 * [View OpenAPI Specification](https://raw.githubusercontent.com/GillWrites/rock-rankers-api/main/api/rock-rankers-spec.yml)
 
-## Contact Rock-Rankers
+## 📧 Contact Rock-Rankers
 
 Ready for an epic music adventure? Rock-rankers would love to hear from you: <hello@rockrankers.com>.
