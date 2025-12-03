@@ -33,32 +33,46 @@ Rock-Rankers is for developers building streaming apps and sites for rock fans w
 
 Empower your fanbase to search for their favorite bands and albums by release dates, album scores/rankings and much more.
 
-| ![Top 5 Albums](./images/top-5%20-albums-by-global-ranking.png) | **Empower your fanbase to search for their favorite bands and albums by release dates, album scores/rankings and much more.** |
+For example, need a reminder of the top 3 Beatles albums? Rock-rankers have you covered:
 
-
-![Beatles](./images/%20quality-songs-chart.png)
-
-For example, need a reminder of the top album of the sixties? Rock-rankers has you covered:
-
- ```shell
-   curl "http://localhost:3000/albums?global-album-ranking=1&release-date_gte=1960&release-date_lte=1969"
-   ```
-
-   **Sample response**
-
-```json
-   [
-     {
-       "id": 1,
-       "name": "The Beatles",
-       "album": "Rubber Soul",
-       "release-date": 1965,
-       "album-score": 987,
-       "global-album-ranking": 1,
-       "band-catalog-album-ranking": 1
-     }
-   ]
+```shell
+curl -X GET "http://localhost:3000/albums?name=The%20Beatles&global-album-ranking_gte=1&global-album-ranking_lte=3&_sort=global-album-ranking"
 ```
+
+**Sample response:**
+```json
+[
+  {
+    "id": 6,
+    "name": "The Beatles",
+    "album": "Sgt. Pepper's Lonely Hearts Club Band",
+    "release-date": 1967,
+    "album-score": 800,
+    "global-album-ranking": 1,
+    "band-catalog-album-ranking": 1
+  },
+  {
+    "id": 7,
+    "name": "The Beatles",
+    "album": "Abbey Road",
+    "release-date": 1969,
+    "album-score": 805,
+    "global-album-ranking": 2,
+    "band-catalog-album-ranking": 2
+  },
+  {
+    "id": 1,
+    "name": "The Beatles",
+    "album": "Rubber Soul",
+    "release-date": 1965,
+    "album-score": 987,
+    "global-album-ranking": 3,
+    "band-catalog-album-ranking": 3
+  }
+]
+```
+
+![Top 2 beatles albums](./images/top-3-beatles-albums.png)
 
 ## Quick start
 
