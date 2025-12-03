@@ -71,8 +71,7 @@ curl -X GET "http://localhost:3000/albums?name=The%20Beatles&global-album-rankin
     "band-catalog-album-ranking": 3
   }
 ]
-```
-
+```<p align="center">
 ![Top 2 beatles albums](./images/beatles-chart-resized.png)
 
 ## Quick start
