@@ -29,7 +29,7 @@ Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as
     • The results are clear, visual, data-driven insights that serious rock fans demand.
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="./images/quality of songs all bands.png" alt="Quality Songs Chart" style="max-width: 100%; height: auto;">
+    <img src="./images/quality of songs all albums.png" alt="Quality Songs Chart" style="max-width: 100%; height: auto;">
   </div>
 </div>
 <!-- markdownlint-enable MD033 -->
@@ -89,12 +89,13 @@ curl -X GET "http://localhost:3000/albums?name=The%20Beatles&global-album-rankin
 
 ---
 
-## 🚀 Quick start
+## 🚀 Quickstart
 
-Ready to explore more? Follow this tutorial to set up your Rock-Rankers environment and
-make your first Rock-Rankers call.
+Ready to rock? Explore Rock-Rankers with your own mock API server. Follow this quickstart tutorial to
+set up your local environment and make your first Rock-Rankers API call, just like a real
+production API.
 
-* [Get started with Rock-Rankers](./Tutorials/rock-rankers-environment-set-up.md)
+🚀 [Rock-Rankers quickstart tutorial](./get-started.md)
 
 ---
 
@@ -120,6 +121,7 @@ Learn how to perform common Rock-Rankers tasks:
 * [users](./API/users.md)
 
 **Edit the Rock-Rankers database**  
+<!-- vale Google.Acronyms = NO -->
 Rock-rankers supports the following typical `HTTP` functions:
 
 | HTTP Method | Operation | Description |
@@ -151,6 +153,7 @@ Rock-rankers supports the following typical `HTTP` functions:
 * [PUT: update an existing user](./API/put-user.md)
 * [PATCH: partially update a user](./API/patch-user.md)
 * [DELETE: delete a user](./API/delete-user.md)
+<!-- vale Google.Colons = YES -->
   
 ### View the Rock-Rankers repo and OpenAPI specification
 
