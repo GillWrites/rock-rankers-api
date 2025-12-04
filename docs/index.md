@@ -33,7 +33,7 @@ Rock-Rankers is for developers building streaming apps and sites for rock fans w
 
 Empower your fanbase to search for their favorite bands and albums by release dates, album scores/rankings and much more.
 
-For example, need a reminder of the top 3 Beatles albums? Rock-rankers have you covered:
+For example, need a reminder of the top 3 Beatles albums? Rock-rankers has you covered:
 
 ```shell
 curl -X GET "http://localhost:3000/albums?name=The%20Beatles&global-album-ranking_gte=1&global-album-ranking_lte=3&_sort=global-album-ranking"
@@ -74,7 +74,7 @@ curl -X GET "http://localhost:3000/albums?name=The%20Beatles&global-album-rankin
 ```
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-  <img src="./images/beatles-chart-resized.png" alt="Top 3 Beatles Albums by Global Ranking" width="700">
+  <img src="./images/beatles-chart-resized.png" alt="Top 3 Beatles Albums by Global Ranking" width="400">
 </p>
 
 ## 🚀 Quick start
