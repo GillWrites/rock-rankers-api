@@ -69,8 +69,8 @@
       "album": "Rubber Soul",
       "release-date": 1965,
       "album-score": 987,
-      "global-album-ranking": 1,
-      "band-catalog-album-ranking": 1
+      "global-album-ranking": 3,
+      "band-catalog-album-ranking": 3
     },
     {
       "id": 2,
@@ -107,6 +107,24 @@
       "album-score": 945,
       "global-album-ranking": 5,
       "band-catalog-album-ranking": 1
+    },
+    {
+      "id": 6,
+      "name": "The Beatles",
+      "album": "Sgt. Pepper's Lonely Hearts Club Band",
+      "release-date": 1967,
+      "album-score": 800,
+      "global-album-ranking": 1,
+      "band-catalog-album-ranking": 1
+    },
+    {
+      "id": 7,
+      "name": "The Beatles",
+      "album": "Abbey Road",
+      "release-date": 1969,
+      "album-score": 805,
+      "global-album-ranking": 2,
+      "band-catalog-album-ranking": 2
     }
   ]
 }

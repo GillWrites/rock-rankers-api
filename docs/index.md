@@ -19,30 +19,86 @@ Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as
 
 ![Music image](./images/rendy-novantino-LPpEC2YysUg-unsplash.jpg)
 
-## What's Rock-Rankers?
+## 🎸 What's Rock-Rankers?
 
-* Rock-Rankers is a lightweight REST API that performs metrics-driven rock music analysis.
-* Rock-Rankers scores, ranks, and compares bands, albums, and songs.
-* The results are clear, visual, data-driven insights that serious rock fans demand.
+<!-- markdownlint-disable MD033 -->
+<div style="display: flex; gap: 40px; align-items: flex-start;">
+  <div style="flex: 1; font-size: 16px; padding: 10px;">
+    • Rock-Rankers is a lightweight REST API that performs metrics-driven rock music analysis.<br><br>
+    • Rock-Rankers scores, ranks, and compares bands, albums, and songs.<br><br>
+    • The results are clear, visual, data-driven insights that serious rock fans demand.
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="./images/quality of songs all bands.png" alt="Quality Songs Chart" style="max-width: 100%; height: auto;">
+  </div>
+</div>
+<!-- markdownlint-enable MD033 -->
 
-![Quality Songs Per Album](./images/quality-songs-all-bands.png)
+## 🎸 Who uses Rock-Rankers?
 
-## Who uses Rock-Rankers?
+<!-- markdownlint-disable MD033 -->
+<div style="display: flex; gap: 40px; align-items: flex-start;">
+  <div style="flex: 1; text-align: center;">
+    <img src="./images/beatles-chart-resized.png" alt="Top 3 Beatles Albums" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 1; font-size: 16px; padding: 10px;">
+    • Rock-Rankers is for developers building streaming apps and sites for rock fans who love to analyze and debate music.<br><br>
+    • Empower your fanbase to search for their favorite bands and albums by release dates, album scores/rankings and much more.<br><br>
+    • For example, a reminder of the top 3 Beatles albums is just a <a href="https://curl.se/"><code>curl</code></a> away.
+  </div>
+</div>
+<!-- markdownlint-enable MD033 -->
 
-Rock-Rankers is for developers building streaming apps and sites for rock fans who love to analyze and debate music.
+```shell
+curl -X GET "http://localhost:3000/albums?name=The%20Beatles&global-album-ranking_gte=1&global-album-ranking_lte=3&_sort=global-album-ranking"
+```
 
-Empower your fanbase to search for their favorite bands and albums by release dates, album scores/rankings and much more.
+**Sample response:**
 
-![Beatles](./images/%20quality-songs-chart.png)
+```json
+[
+  {
+    "id": 6,
+    "name": "The Beatles",
+    "album": "Sgt. Pepper's Lonely Hearts Club Band",
+    "release-date": 1967,
+    "album-score": 800,
+    "global-album-ranking": 1,
+    "band-catalog-album-ranking": 1
+  },
+  {
+    "id": 7,
+    "name": "The Beatles",
+    "album": "Abbey Road",
+    "release-date": 1969,
+    "album-score": 805,
+    "global-album-ranking": 2,
+    "band-catalog-album-ranking": 2
+  },
+  {
+    "id": 1,
+    "name": "The Beatles",
+    "album": "Rubber Soul",
+    "release-date": 1965,
+    "album-score": 987,
+    "global-album-ranking": 3,
+    "band-catalog-album-ranking": 3
+  }
+]
+```
 
-## Quick start
+---
 
-Ready to explore more? Follow this tutorial to set up your rock-rankers environment and
+## 🚀 Quick start
+
+Ready to explore more? Follow this tutorial to set up your Rock-Rankers environment and
 make your first Rock-Rankers call.
 
 * [Get started with Rock-Rankers](./Tutorials/rock-rankers-environment-set-up.md)
 
-## Tutorials
+---
+
+## 🤘 Tutorials
 
 Learn how to perform common Rock-Rankers tasks:
 
@@ -51,7 +107,9 @@ Learn how to perform common Rock-Rankers tasks:
 * [How to filter bands with combined query parameters](./Tutorials/tutorial-get-band-filters.md)
 * [How to filter albums with combined query parameters](./Tutorials/tutorial-get-album-filters.md)
 
-## Learn more
+---
+
+## 📚 Learn more
 
 ### API reference docs
 
@@ -99,6 +157,8 @@ Rock-rankers supports the following typical `HTTP` functions:
 * [Rock-rankers api repo](https://github.com/drenn08/rock-rankers-api)
 * [View OpenAPI Specification](https://raw.githubusercontent.com/GillWrites/rock-rankers-api/main/api/rock-rankers-spec.yml)
 
-## Contact Rock-Rankers
+---
+
+## 📧 Contact Rock-Rankers
 
 Ready for an epic music adventure? Rock-rankers would love to hear from you: <hello@rockrankers.com>.

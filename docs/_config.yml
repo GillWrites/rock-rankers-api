@@ -28,7 +28,7 @@ search:
   button: false
 
 # Footer
-footer_content: "Copyright &copy; 2025 Rock-Rankers API. Documentation built with Jekyll and Just the Docs."
+footer_content: "Copyright &copy; 2025 Gillian Deenihan. Documentation built with Jekyll and Just the Docs."
 
 # Color scheme
 color_scheme: nil
