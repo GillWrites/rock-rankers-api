@@ -53,7 +53,7 @@ Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as
 
 * Empower your fanbase to search for their favorite bands and albums by release dates, album scores/rankings and much more.
 
-* For example, need a reminder of the top 3 Beatles albums? Rock-rankers has you covered:
+* For example, a reminder of the top 3 Beatles albums is just a ['curl'](https://curl.se/) away.
 
 ```shell
 curl -X GET "http://localhost:3000/albums?name=The%20Beatles&global-album-ranking_gte=1&global-album-ranking_lte=3&_sort=global-album-ranking"
@@ -92,10 +92,8 @@ curl -X GET "http://localhost:3000/albums?name=The%20Beatles&global-album-rankin
   }
 ]
 ```
-<!-- markdownlint-disable MD033 -->
-<p align="center">
-  <img src="./images/beatles-chart-resized.png" alt="Top 3 Beatles Albums by Global Ranking" width="500">
-</p>
+
+---
 
 ## 🚀 Quick start
 
@@ -103,6 +101,8 @@ Ready to explore more? Follow this tutorial to set up your rock-rankers environm
 make your first Rock-Rankers call.
 
 * [Get started with Rock-Rankers](./Tutorials/rock-rankers-environment-set-up.md)
+
+---
 
 ## 🤘 Tutorials
 
@@ -112,6 +112,8 @@ Learn how to perform common Rock-Rankers tasks:
 * [How to retrieve album information](./Tutorials/tutorial-get-album.md)
 * [How to filter bands with combined query parameters](./Tutorials/tutorial-get-band-filters.md)
 * [How to filter albums with combined query parameters](./Tutorials/tutorial-get-album-filters.md)
+
+---
 
 ## 📚 Learn more
 
@@ -160,6 +162,8 @@ Rock-rankers supports the following typical `HTTP` functions:
 
 * [Rock-rankers api repo](https://github.com/drenn08/rock-rankers-api)
 * [View OpenAPI Specification](https://raw.githubusercontent.com/GillWrites/rock-rankers-api/main/api/rock-rankers-spec.yml)
+
+---
 
 ## 📧 Contact Rock-Rankers
 
