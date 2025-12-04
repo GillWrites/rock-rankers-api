@@ -91,7 +91,7 @@ curl -X GET "http://localhost:3000/albums?name=The%20Beatles&global-album-rankin
 
 ## 🚀 Quick start
 
-Ready to explore more? Follow this tutorial to set up your rock-rankers environment and
+Ready to explore more? Follow this tutorial to set up your Rock-Rankers environment and
 make your first Rock-Rankers call.
 
 * [Get started with Rock-Rankers](./Tutorials/rock-rankers-environment-set-up.md)
