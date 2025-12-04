@@ -21,11 +21,15 @@ Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as
 
 ## 🎸 What's Rock-Rankers?
 
+| | |
+|:---------|:----------:|
+| • Rock-Rankers is a lightweight REST API that performs metrics-driven rock music analysis.<br>• Rock-Rankers scores, ranks, and compares bands, albums, and songs.<br>• The results are clear, visual, data-driven insights that serious rock fans demand. | ![Rock-Rankers Chart](./images/quality%20of%20songs%20all%20bands.png) |
+
 * Rock-Rankers is a lightweight REST API that performs metrics-driven rock music analysis.
 * Rock-Rankers scores, ranks, and compares bands, albums, and songs.
 * The results are clear, visual, data-driven insights that serious rock fans demand.
 
-![Quality Songs Per Album](./images/quality-songs-all-bands.png)
+![Quality Songs Per Album](./images/quality%20of%20songs%20all%20bands.png)
 
 ## 🎸 Who uses Rock-Rankers?
 
@@ -74,7 +78,7 @@ curl -X GET "http://localhost:3000/albums?name=The%20Beatles&global-album-rankin
 ```
 <!-- markdownlint-disable MD033 -->
 <p align="center">
-  <img src="./images/beatles-chart-resized.png" alt="Top 3 Beatles Albums by Global Ranking" width="400">
+  <img src="./images/beatles-chart-resized.png" alt="Top 3 Beatles Albums by Global Ranking" width="500">
 </p>
 
 ## 🚀 Quick start
