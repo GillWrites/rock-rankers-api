@@ -36,6 +36,19 @@ Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as
 
 ## 🎸 Who uses Rock-Rankers?
 
+<!-- markdownlint-disable MD033 -->
+<div style="display: flex; gap: 40px; align-items: flex-start;">
+  <div style="flex: 1; text-align: center;">
+    <img src="./images/beatles-chart-resized.png" alt="Top 3 Beatles Albums" style="max-width: 100%; height: auto;">
+  </div>
+  <div style="flex: 1; font-size: 16px; padding: 10px;">
+    • Rock-Rankers is for developers building streaming apps and sites for rock fans who love to analyze and debate music.<br><br>
+    • Empower your fanbase to search for their favorite bands and albums by release dates, album scores/rankings and much more.<br><br>
+    • For example, need a reminder of the top 3 Beatles albums? Rock-rankers has you covered:
+  </div>
+</div>
+<!-- markdownlint-enable MD033 -->
+
 * Rock-Rankers is for developers building streaming apps and sites for rock fans who love to analyze and debate music.
 
 * Empower your fanbase to search for their favorite bands and albums by release dates, album scores/rankings and much more.
