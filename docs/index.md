@@ -53,7 +53,7 @@ Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as
 
 * Empower your fanbase to search for their favorite bands and albums by release dates, album scores/rankings and much more.
 
-* For example, a reminder of the top 3 Beatles albums is just a ['curl'](https://curl.se/) away.
+* For example, a reminder of the top 3 Beatles albums is just a [`curl`](https://curl.se/) away.
 
 ```shell
 curl -X GET "http://localhost:3000/albums?name=The%20Beatles&global-album-ranking_gte=1&global-album-ranking_lte=3&_sort=global-album-ranking"
