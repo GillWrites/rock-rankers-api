@@ -44,16 +44,10 @@ Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as
   <div style="flex: 1; font-size: 16px; padding: 10px;">
     • Rock-Rankers is for developers building streaming apps and sites for rock fans who love to analyze and debate music.<br><br>
     • Empower your fanbase to search for their favorite bands and albums by release dates, album scores/rankings and much more.<br><br>
-    • For example, need a reminder of the top 3 Beatles albums? Rock-rankers has you covered:
+    • For example, a reminder of the top 3 Beatles albums is just a <a href="https://curl.se/"><code>curl</code></a> away.
   </div>
 </div>
 <!-- markdownlint-enable MD033 -->
-
-* Rock-Rankers is for developers building streaming apps and sites for rock fans who love to analyze and debate music.
-
-* Empower your fanbase to search for their favorite bands and albums by release dates, album scores/rankings and much more.
-
-* For example, a reminder of the top 3 Beatles albums is just a [`curl`](https://curl.se/) away.
 
 ```shell
 curl -X GET "http://localhost:3000/albums?name=The%20Beatles&global-album-ranking_gte=1&global-album-ranking_lte=3&_sort=global-album-ranking"
