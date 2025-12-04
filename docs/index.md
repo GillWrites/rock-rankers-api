@@ -21,6 +21,7 @@ Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as
 
 ## 🎸 What's Rock-Rankers?
 
+<!-- markdownlint-disable MD033 -->
 <div style="display: flex; gap: 40px; align-items: flex-start;">
   <div style="flex: 1; font-size: 16px; padding: 10px;">
     • Rock-Rankers is a lightweight REST API that performs metrics-driven rock music analysis.<br><br>
@@ -31,16 +32,7 @@ Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as
     <img src="./images/quality of songs all bands.png" alt="Quality Songs Chart" style="max-width: 100%; height: auto;">
   </div>
 </div>
-
-| | |
-|:---------|:----------:|
-| • Rock-Rankers is a lightweight REST API that performs metrics-driven rock music analysis.<br>• Rock-Rankers scores, ranks, and compares bands, albums, and songs.<br>• The results are clear, visual, data-driven insights that serious rock fans demand. | ![Rock-Rankers Chart](./images/quality%20of%20songs%20all%20bands.png) |
-
-* Rock-Rankers is a lightweight REST API that performs metrics-driven rock music analysis.
-* Rock-Rankers scores, ranks, and compares bands, albums, and songs.
-* The results are clear, visual, data-driven insights that serious rock fans demand.
-
-![Quality Songs Per Album](./images/quality%20of%20songs%20all%20bands.png)
+<!-- markdownlint-enable MD033 -->
 
 ## 🎸 Who uses Rock-Rankers?
 
