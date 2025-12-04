@@ -29,7 +29,7 @@ Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as
     • The results are clear, visual, data-driven insights that serious rock fans demand.
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="./images/quality of songs all bands.png" alt="Quality Songs Chart" style="max-width: 100%; height: auto;">
+    <img src="./images/Updated songs all albums.png" alt="Quality Songs Chart" style="max-width: 100%; height: auto;">
   </div>
 </div>
 <!-- markdownlint-enable MD033 -->
