@@ -5,7 +5,7 @@ title: "Rock-Rankers quickstart"
 layout: default
 nav_order: 2
 has_children: true
-permalink: /get-started
+permalink: /Rock-Rankers-quickstart
 has_toc: false
 version: "v1.0"
 last_updated: "2025-12-11"

@@ -4,7 +4,7 @@ layout: default
 nav_order: 1
 parent: "Tutorials"
 has_children: false
-permalink: /Tutorials/Tutorial_GET-band.md/
+permalink: /Tutorials/How-to-retrieve-band-information/
 has_toc: false
 description: "Tutorial outlinig how to query the `bands` endpoint"
 tags:
@@ -12,11 +12,26 @@ tags:
 categories:
   - tutorials
 version: "v1.0"
-last_updated: "2025-11-19"
+last_updated: "2025-12-05"
 ---
-## Tutorial: how to retrieve band information
 
-This tutorial explains how to query the rock-rankers database to retrieve band information from
+<!-- markdownlint-disable MD025 -->
+<!-- markdownlint-disable MD033 -->
+<!-- vale Google.Headings = NO -->
+<!-- vale Google.Headings = NO -->
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <<img src="/rock-rankers-api/images/logo.png"
+       alt="Rock-Rankers Logo"
+       width="200"
+       style="margin-right: 20px; flex-shrink: 0;"/>
+  <h1 style="margin: 0;">How to retrieve band information</h1>
+</div>
+<!-- vale Google.Headings = YES -->
+<!-- markdownlint-enable MD025 MD033 -->
+
+<!-- vale Google.Acronyms = NO -->
+
+This tutorial explains how to query the Rock-Rankers database to retrieve band information from
 the `/bands` endpoint to:
 
 * Find all bands.
@@ -24,16 +39,16 @@ the `/bands` endpoint to:
   
 Expect this tutorial to take about 10 minutes to complete.
 
-### Before starting
+## 🚀  Before starting
 
-Complete the [Environment set-up tutorial](./rock-rankers%20environment%20set-up.md) topic on the
+Complete the [Rock-Rankers quickstart tutorial](./rock-rankers-environment-set-up.md) topic on your
 development system before starting this tutorial.
 
-### Find all bands
+## 🤘 Find all bands
 
 Use the `GET` method to retrieve band information from the `bands` resource.
 
-1. Make sure the local json server is running. Start it with this command in the terminal if needed.
+1. Make sure the local JSON server is running. Start the server with this command in the terminal, if needed.
 
    ```shell
    cd <your-github-workspace>/rock-rankers-api/api
@@ -47,7 +62,7 @@ Use the `GET` method to retrieve band information from the `bands` resource.
    curl http://localhost:3000/bands
    ```
 
-3. Verify the response returns information for all `bands` within the rock-rankers database.
+3. Verify the response returns information for all `bands` within the Rock-Rankers database.
 
 ```json
    [
@@ -89,11 +104,11 @@ Use the `GET` method to retrieve band information from the `bands` resource.
    ]
 ```
 
-### Find a band by name
+## 🤘 Find a band by name
 
 Retrieve information for a single band with a `GET` request using the `name` query parameter.
 
-1. Make sure the local json server is running. Start it with this command in the terminal if needed.
+1. Make sure the local JSON server is running. Start the server with this command in the terminal, if needed.
 
    ```shell
    cd <your-github-workspace>/rock-rankers-api/api
@@ -113,7 +128,7 @@ Retrieve information for a single band with a `GET` request using the `name` que
    each space, like Led%20Zeppelin.
 
    **Request example:**  
-   This request queries the rock-rankers database to retrieve information about the band Led
+   This request queries the Rock-Rankers database to retrieve information about the band Led
    Zeppelin.
 
    ```shell
@@ -136,10 +151,10 @@ Retrieve information for a single band with a `GET` request using the `name` que
 
 After completing this tutorial, you now know how to:
 
-* Retrieve information for all bands in the rock-rankers database.
+* Retrieve information for all bands in the Rock-Rankers database.
 * Find bands by name using the `name` query parameter with curl.
 
-## Troubleshooting
+## 🔨 Troubleshooting
 
  | Status Code       | Problem                                        | Solution                                                                 |
 |-------------------|------------------------------------------------|--------------------------------------------------------------------------|
@@ -149,7 +164,7 @@ After completing this tutorial, you now know how to:
 | 500 Internal Server Error | json-server encountered an error       | Ensure json-server is running; restart it using `json-server --watch api-ranks-db-source.json` |
 | ECONNREFUSED      | Can't connect to json-server                  | Verify json-server is running on port 3000; check that no other service is using the port |
 
-### Next steps
+## ➡️ Next steps
 
 After doing this tutorial using curl, try repeating it using the
 [Postman](https://learning.postman.com/docs/sending-requests/requests/) GUI. To do this, adapt

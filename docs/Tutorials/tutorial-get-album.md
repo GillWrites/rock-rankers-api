@@ -4,7 +4,7 @@ layout: default
 nav_order: 2
 parent: "Tutorials"
 has_children: false
-permalink: /Tutorials/tutorial-GET-album/
+permalink: /Tutorials/How-to-retrieve-album-information/
 has_toc: false
 description: "Tutorial outlining how to query the `albums` endpoint"
 tags:
@@ -14,9 +14,24 @@ categories:
 version: "v1.0"
 last_updated: "2025-11-19"
 ---
-## Tutorial: how to retrieve album information
 
-This tutorial shows how to query the rock-rankers database to get album information from
+<!-- markdownlint-disable MD025 -->
+<!-- markdownlint-disable MD033 -->
+<!-- vale Google.Headings = NO -->
+<!-- vale Google.Headings = NO -->
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <<img src="/rock-rankers-api/images/logo.png"
+       alt="Rock-Rankers Logo"
+       width="200"
+       style="margin-right: 20px; flex-shrink: 0;"/>
+  <h1 style="margin: 0;">How to retrieve album information</h1>
+</div>
+<!-- vale Google.Headings = YES -->
+<!-- markdownlint-enable MD025 MD033 -->
+
+<!-- vale Google.Acronyms = NO -->
+
+This tutorial shows how to query the Rock-Rankers database to get album information from
 the `/albums` endpoint to:
 
 * Find all albums.
@@ -24,16 +39,16 @@ the `/albums` endpoint to:
   
 This tutorial takes about 10 minutes to complete.
 
-### Before starting
+## 🚀  Before starting
 
-Complete the [Environment set-up tutorial](./rock-rankers%20environment%20set-up.md) topic on
-the development system before starting this tutorial.
+Complete the [Rock-Rankers quickstart tutorial](./rock-rankers-environment-set-up.md) topic on
+your development system before starting this tutorial.
 
-### Find all albums
+## 🤘 Find all albums
 
 The `GET` method retrieves `album` information from the `albums` resource.
 
-1. Check that the local json server is running. Start the server with this command in the terminal.
+1. Check that the local JSON server is running. Start the server with this command in the terminal, if needed.
 
    ```shell
    cd <your-github-workspace>/rock-rankers-api/api
@@ -47,7 +62,7 @@ The `GET` method retrieves `album` information from the `albums` resource.
    curl http://localhost:3000/albums
    ```
 
-3. Check the response. The response returns information for all `albums` in the rock-rankers
+3. Check the response. The response returns information for all `albums` in the Rock-Rankers
    database.
 
 ```json
@@ -100,11 +115,11 @@ The `GET` method retrieves `album` information from the `albums` resource.
    ]
 ```
 
-### Find an album by name
+## 🤘 Find an album by name
 
 Retrieve information for a single album with a `GET` request. Use the `album` query parameter.
 
-1. Check that the local json server is running. Start the server with this command in the terminal.
+1. Check that the local JSON server is running. Start the server with this command in the terminal, if needed.
 
    ```shell
    cd <your-github-workspace>/rock-rankers-api/api
@@ -124,7 +139,7 @@ Retrieve information for a single album with a `GET` request. Use the `album` qu
    each space, like Ok%20Computer.
 
    **Request example:**  
-   This request queries the rock-rankers database to get information about the album
+   This request queries the Rock-Rankers database to get information about the album
    Ok Computer.
 
    ```shell
@@ -149,10 +164,10 @@ Retrieve information for a single album with a `GET` request. Use the `album` qu
 
 After completing this tutorial, you now know how to:
 
-* Retrieve information for all albums in the rock-rankers database.
+* Retrieve information for all albums in the Rock-Rankers database.
 * Find albums by name using the `album` query parameter with curl.
 
-  ## Troubleshooting
+  ## 🔨 Troubleshooting
 
 | Status Code       | Problem                                        | Solution                                                                 |
 |-------------------|------------------------------------------------|--------------------------------------------------------------------------|
@@ -162,7 +177,7 @@ After completing this tutorial, you now know how to:
 | 500 Internal Server Error | json-server encountered an error       | Ensure json-server is running; restart it using `json-server --watch api-ranks-db-source.json` |
 | ECONNREFUSED      | Can't connect to json-server                  | Verify json-server is running on port 3000; check that no other service is using the port |
 
-### Next steps
+## ➡️ Next steps
 
 Try this tutorial again using the [Postman](https://learning.postman.com/docs/sending-requests/requests/)
 GUI. Adapt the values from the tutorial to Postman's `GET` request format to make REST API calls.
