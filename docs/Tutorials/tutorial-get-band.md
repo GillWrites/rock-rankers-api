@@ -20,7 +20,7 @@ last_updated: "2025-12-05"
 <!-- vale Google.Headings = NO -->
 <!-- vale Google.Headings = NO -->
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <<img src="/rock-rankers-api/images/logo.png"
+  <img src="/rock-rankers-api/images/logo.png"
        alt="Rock-Rankers Logo"
        width="200"
        style="margin-right: 20px; flex-shrink: 0;"/>
