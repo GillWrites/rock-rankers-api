@@ -23,72 +23,97 @@ last_updated: "2025-11-22"
 # vale  on
 # markdownlint-enable
 ---
+<!-- markdownlint-disable MD025 -->
+<!-- markdownlint-disable MD033 -->
+<!-- vale Google.Headings = NO -->
+<h1>
+  <img src="../images/logo.png" alt="Rock-Rankers Logo" width="200" style="vertical-align: middle; margin-right: 10px;"/> Rock-Rankers quickstart tutorial
+</h1>
+<!-- markdownlint-enable MD025 MD033 -->
 
 <!-- vale Google.Acronyms = NO -->
 
-## Tutorial: Rock-rankers environment set-up
+## Follow these steps to get started using Rock-Rankers
 
-### Install software
+* **[Build your Rock-Rankers development environment](#-build-your-rock-rankers-development-environment)**
+* **[Verify your Rock-Rankers development environment](#-verify-your-rock-rankers-development-environment)**
+* **[Make a test call to the Rock-Rankers service](#-make-a-test-call-to-the-rock-rankers-service)**
 
-Following these steps prepares your development system for a smooth rock-rankers-api
-experience.
+## 🤘 Build your Rock-Rankers development environment
 
-Expect this preparation to take about 40 minutes to complete.
+Rock-Rankers uses a mock API server environment that acts like a real API. The mock API uses
+JSON Server, which creates REST endpoints from your JSON data file. Following these steps
+prepares your development system for a smooth Rock-Rankers experience.
+
+Expect this preparation to take about 30 minutes to complete.
 
 1. **Check prerequisites**
-   * Verify system compatibility. Rock-rankers runs on any development system running a
+   * Verify system compatibility. Rock-Rankers runs on any development system running a
    current version of the Windows, MacOS, or Linux operating system.
-  
-2. **Create a GitHub account**
+
+2. **Install node.js**
+      * Install [version 24.11.1 of `node.js`](https://nodejs.org/en/download).
+
+3. **Install JSON server**
+      * Install [version 0.17.4 of json-server](https://www.npmjs.com/package/json-server/v/0.17.4).
+4. **Create a GitHub account**
       * Create a [GitHub cloud account](https://github.com).
   
-3. **Create a fork of the rock-rankers-api repository**
+5. **Create a fork of the Rock-Rankers API repository**
      * Browse to the
-     [rock-rankers-api repository](https://github.com/GillWrites/rock-rankers-api).
-     * Create a fork of the rock-rankers repository within your GitHub account. This
+     [Rock-Rankers API repository](https://github.com/GillWrites/rock-rankers-api).
+     * Create a fork of the Rock-Rankers repository within your GitHub account. This
      article tells you how: [Git: fork a repo](https://docs.github.com/articles/fork-a-repo).
 
-4. **Install Git command line tools**
-    * [Git, command line](https://docs.github.com/en/get-started/quickstart/set-up-git).
+6. **Install Git command line tools**
+    * Follow this article to install Git command line.[Git: command line](https://docs.github.com/en/get-started/quickstart/set-up-git).
 
-5. **Create a clone of forked rock-rankers api on GitHub Desktop**
+7. **Create a clone of forked Rock-Rankers API on GitHub Desktop**
    * [Install GitHub Desktop](https://desktop.github.com).
-   * Create a clone of GitHub cloud on local GitHub Desktop. This article tells you how:
+   * Create a clone of GitHub cloud's forked Rock-Rankers API on local GitHub Desktop. This article tells you how:
    [Cloning a GitHub repository](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop).
-
-6. **Install node.js**
-      * [A current or LTS version of `node.js`](https://nodejs.org/en/download).
-
-7. **Install json server**
-      * Version 0.17.4 of [json-server](https://www.npmjs.com/package/json-server/v/0.17.4).
+   * Create a branch from the Rock-Rankers main repository on your GitHub Desktop. This article
+   tells you how, [Managing Branches in GitHub Desktop](https://docs.github.com/en/desktop/making-changes-in-a-branch/managing-branches-in-github-desktop).
+   You'll run your Rock-Rankers tutorials from your branch.
   
 <!-- vale Google.Acronyms = YES -->
 
-## Verify your development environment
+## 🤘 Verify your Rock-Rankers development environment
 
-1. To test your development system, browse to your rock-rankers-api repository.
-   * Open a command line and browse to your `GitHub repository workspace`. This is the
-   directory that contains your fork of the `rock-rankers-api` repository.
-
-   ```shell
-    cd <your GitHub repository workspace>/
-   ```
-
-**For example:**
-
-```shell
-         cd /Documents/GitHub/GitHubRepos/
-```
-
-   Type `ls` to verify that you see rock-rankers-api folder returned. The output should
-   include `rock-rankers-api`.
+1. To test your development system, browse to your Rock-Rankers API repository.
+   * Open a terminal and browse to your **GitHub repository workspace**. This is the
+   directory that contains your fork of the **Rock-Rankers API** repository.
 
    ```shell
-    ls
-    rock-rankers-api
+    cd <your GitHub repository workspace>/rock-rankers-api
    ```
 
-1. Browse to the `rock-rankers-api/api` folder and verify you can see the json database.
+   **For example:**
+
+   ```shell
+         cd /Documents/GitHub/GitHubRepos/rock-rankers-api
+   ```
+
+   Verify you are in the branch you created in step 7, [Build your Rock-Rankers development environment](#-build-your-rock-rankers-development-environment). Run the following command:
+
+   ```shell
+    git branch
+   ```
+
+   The current working branch has an asterisk *.
+
+   **For example:**
+
+   In the below example, the current working brancn is **quick-start-b**.
+
+    ```shell
+    MacBook-Air-3:rock-rankers-api gilliandeenihan$ git branch
+    main
+   * quick-start-b
+ 
+   ```
+
+2. Browse to the `/api` folder and verify you can see the JSON database.
 The output should include the `rock-rankers-api.json` database.
 
 ```shell
@@ -96,11 +121,11 @@ The output should include the `rock-rankers-api.json` database.
  api-ranks-db-source.json
 ```
 
-You are now ready to make a test call to the rock-rankers database.
+You are now ready to make a test call to the Rock-Rankers service.
 
-## Make a test call to the rock-rankers service
+## 🤘 Make a test call to the Rock-Rankers service
 
-1. Enter the following command to start the json server:
+1. Enter the following command to start the JSON server:
 
    ```shell
     json-server -w api-ranks-db-source.json
@@ -109,13 +134,33 @@ You are now ready to make a test call to the rock-rankers database.
    If you installed the software correctly, you should see
    the service start and display the URL of the service: `http://localhost:3000`.
 
-2. Make a test call to the service.
+   <!-- vale Google.Exclamation = NO -->
+   ```bash
+
+   \{^_^}/ hi!
+
+   Loading api-ranks-db-source.json
+   Done
+
+   Resources
+   <http://localhost:3000/users>
+   <http://localhost:3000/bands>
+   <http://localhost:3000/albums>
+
+   Home
+   <http://localhost:3000>
+
+   ```
+   <!-- vale Google.Exclamation = YES -->
+
+2. Open a second terminal. Make a test call to the Rock-Rankers service. This example makes a call to the resource
+endpoint `bands`, to retrieve all band entries from the JSON database.
 
    ```shell
     curl http://localhost:3000/bands
    ```
 
-If the service is running correctly, you should see a list of bands from the rock-rankers
+If the service is running correctly, you should see a list of bands from the Rock-Rankers
 database, such as in this example.
 
 ```json
@@ -158,8 +203,6 @@ database, such as in this example.
    ]
 ```
 
-You should see the list of bands.
-
 If you receive an error in any step of the procedure investigate. Correct the error before
 continuing. Some common situations that cause errors include:
 
@@ -170,10 +213,14 @@ continuing. Some common situations that cause errors include:
 
 If you need more help, please email rock-rankers: <hello@rockrankers.com>
 
-## Next steps
+## 🤘 Next steps
 
-If you see the list of bands from the rock-rankers service, congratulations. You're ready to
-move onto the next steps on your rock-rankers journey.
+If you see the list of bands from the Rock-Rankers service, congratulations. You're ready to
+move onto the next steps on your Rock-Rankers journey.
 
-You can now move on and learn how to perform common rock-rankers tasks in
-[Tutorials](../tutorials.md).
+* **Try repeating this call using Postman**  
+If you prefer visual tools over the command line, Postman is a great way to explore
+Rock-Rankers without writing code. Learn how to install and use the [Postman desktop app](https://www.postman.com/downloads/).
+
+* **Learn how to perform common Rock-Rankers tasks**  
+ Hurrah, you are now ready to undertake Rock-Rankers [Tutorials](../tutorials.md) to learn how to query the Rock-Rankers database. Exceptional music search capabilities await. 🎸🤘
