@@ -1,14 +1,12 @@
 ---
 # markdownlint-disable
-# vale  off
-title: "Environment set-up"
-parent: "Get Started Tutorial"
+# vale off
+title: "Rock-Rankers quickstart tutorial"
+parent: "Rock-Rankers quickstart"
 layout: default
 nav_order: 1
-# tags used by AI files
-description: Describes how to configure your local computer to run a local instance of
- rock-rankers-api
- permalink:/get-started/rock-rankers-environment-set-up/
+description: Describes how to configure your local computer to run a local instance of rock-rankers-api
+permalink: /Rock-Rankers-quickstart/Rock-Rankers-quickstart-tutorial/
 tags: 
     - get-started
 categories: 
@@ -19,16 +17,23 @@ prerequisites: []
 examples: []
 api_endpoints: []
 version: "v1.0"
-last_updated: "2025-11-22"
-# vale  on
+last_updated: "2025-12-05"
+# vale on
 # markdownlint-enable
 ---
+
 <!-- markdownlint-disable MD025 -->
 <!-- markdownlint-disable MD033 -->
 <!-- vale Google.Headings = NO -->
-<h1>
-  <img src="../images/logo.png" alt="Rock-Rankers Logo" width="200" style="vertical-align: middle; margin-right: 10px;"/> Rock-Rankers quickstart tutorial
-</h1>
+<!-- vale Google.Headings = NO -->
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <<img src="/rock-rankers-api/images/logo.png"
+       alt="Rock-Rankers Logo"
+       width="200"
+       style="margin-right: 20px; flex-shrink: 0;"/>
+  <h1 style="margin: 0;">Rock-Rankers quickstart</h1>
+</div>
+<!-- vale Google.Headings = YES -->
 <!-- markdownlint-enable MD025 MD033 -->
 
 <!-- vale Google.Acronyms = NO -->
@@ -213,7 +218,7 @@ continuing. Some common situations that cause errors include:
 
 If you need more help, please email rock-rankers: <hello@rockrankers.com>
 
-## 🤘 Next steps
+## ➡️ Next steps
 
 If you see the list of bands from the Rock-Rankers service, congratulations. You're ready to
 move onto the next steps on your Rock-Rankers journey.

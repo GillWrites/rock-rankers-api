@@ -4,7 +4,7 @@ layout: default
 nav_order: 4
 parent: "Tutorials"
 has_children: false
-permalink: /Tutorials/tutorial-get-album-filters
+permalink: /Tutorials/How-to-filter-albums-with-combined-query-parameters
 has_toc: false
 description: "Tutorial outlining how to filter the `albums` endpoint using many query parameters"
 tags:
@@ -12,28 +12,43 @@ tags:
 categories:
   - api-reference
 version: "v1.0"
-last_updated: "2025-11-20"
+last_updated: "2025-12-05"
 ---
-## Tutorial: how to filter albums with combined query parameters
 
-This tutorial shows how to query the rock-rankers database. The tutorial gets album data from
+<!-- markdownlint-disable MD025 -->
+<!-- markdownlint-disable MD033 -->
+<!-- vale Google.Headings = NO -->
+<!-- vale Google.Headings = NO -->
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="../images/logo.png"
+       alt="Rock-Rankers Logo"
+       width="200"
+       style="margin-right: 20px; flex-shrink: 0;"/>
+  <h1 style="margin: 0;">How to filter albums with combined query parameters</h1>
+</div>
+<!-- vale Google.Headings = YES -->
+<!-- markdownlint-enable MD025 MD033 -->
+
+<!-- vale Google.Acronyms = NO -->
+
+This tutorial shows how to query the Rock-Rankers database to get album data from
 the `/albums` endpoint. The tutorial uses filters and query parameters. These filters search
 albums by ranking and release date range.
 
 Expect this tutorial to take about 20 minutes to complete.
 
-## Before starting
+## 🚀 Before starting
 
-Complete the [Environment set-up tutorial](./rock-rankers%20environment%20set-up.md) topic on
-the development system before starting this tutorial.
+Complete the [Rock-Rankers quickstart tutorial](./rock-rankers-environment-set-up.md) topic on
+your development system before starting this tutorial.
 
-## Filter albums by ranking and release date
+## 🤘 Filter albums by ranking and release date
 
 The `GET` method uses range operators to filter album data from the `albums` resource. Range
 operators allow searches for albums within specific numeric ranges. These ranges include date
 ranges or ranking thresholds.
 
-1. Check that the local json server is running. Start the server with this command in the terminal.
+1. Check that the local JSON server is running. Start the server with this command in the terminal.
 
    ```shell
    cd <your-github-workspace>/rock-rankers-api/api
@@ -54,7 +69,7 @@ ranges or ranking thresholds.
    operator means "greater than or equal to" and `_lte` means "less than or equal to."
 
    **Request example:**  
-   This request queries the rock-rankers database. The request gets data about albums that have
+   This request queries the Rock-Rankers database. The request gets data about albums that have
    a global ranking of 1 and released in the 1960&nbsp;s.
 
    ```shell
@@ -82,39 +97,39 @@ ranges or ranking thresholds.
 Range operators work well with numeric fields like dates, scores, or rankings. In this
 example:
 
-* `global-album-ranking=1` matches albums with an exact ranking of 1
-* `release-date_gte=1960` matches albums released in 1960 or later
-* `release-date_lte=1969` matches albums released in 1969 or earlier
+* `global-album-ranking=1` matches albums with an exact ranking of 1.
+* `release-date_gte=1960` matches albums released in 1960 or later.
+* `release-date_lte=1969` matches albums released in 1969 or earlier.
 
 When query parameters combine with `&`, the API returns only albums that match all the
 specified criteria.
 
 ### Available range operators
 
-json-server supports these range operators for numeric fields:
+JSON server supports these range operators for numeric fields:
 
-* `_gte` - greater than or equal to
-* `_lte` - less than or equal to
-* `_gt` - greater than
-* `_lt` - less than
+* `_gte` - greater than or equal to.
+* `_lte` - less than or equal to.
+* `_gt` - greater than.
+* `_lt` - less than.
 
 ### Try different filter combinations
 
 Try other filter combinations to explore the database:
 
-**Example 1: find albums from the 1990&nbsp;s**
+**Example 1: find albums from the 1990&nbsp;s:  **
 
 ```shell
 curl "http://localhost:3000/albums?release-date_gte=1990&release-date_lte=1999"
 ```
 
-**Example 2: find albums with global ranking of 5 or better**
+**Example 2: find albums with global ranking of 5 or better:**
 
 ```shell
 curl "http://localhost:3000/albums?global-album-ranking_lte=5"
 ```
 
-**Example 3: find albums released after 1995**
+**Example 3: find albums released after 1995:**
 
 ```shell
 curl "http://localhost:3000/albums?release-date_gte=1995"
@@ -124,11 +139,11 @@ curl "http://localhost:3000/albums?release-date_gte=1995"
 
 After completing this tutorial, you now know how to:
 
-* Filter albums using combined query parameters
-* Use range operators, `_gte`, `_lte`, `_gt`, `_lt`, to filter numeric fields
-* Combine search criteria to narrow down results from the rock-rankers database
+* Filter albums using combined query parameters.
+* Use range operators, `_gte`, `_lte`, `_gt`, `_lt`, to filter numeric fields.
+* Combine search criteria to narrow down results from the Rock-Rankers database.
 
-## Troubleshooting
+## 🔨 Troubleshooting
 
 Refer to the table below if errors occur while following this tutorial:
 
@@ -140,7 +155,7 @@ Refer to the table below if errors occur while following this tutorial:
 | 500 Internal Server Error | json-server encountered an error       | Ensure json-server is running; restart it using `json-server --watch api-ranks-db-source.json` |
 | ECONNREFUSED      | Can't connect to json-server                  | Verify json-server is running on port 3000; check that no other service is using the port |
 
-## Next steps
+## ➡️ Next steps
 
 ### Try more query combinations
 
@@ -179,5 +194,5 @@ curl "http://localhost:3000/albums?global-album-ranking_lte=2&release-date_gte=1
 ### Try repeating this tutorial using Postman
 
 Try these queries using the [Postman](https://learning.postman.com/docs/sending-requests/requests/)
-GUI. Adapt the values from the tutorial to Postman's Params section to make REST API calls.
-Postman's **Params** section allows adding many query parameters.
+GUI. Adapt the values from the tutorial to Postman's [**Params**](https://learning.postman.com/docs/sending-requests/create-requests/parameters/) section to make REST API calls.
+Postman's **Params** allows adding many query parameters.
