@@ -1,7 +1,5 @@
---- 
-# markdownlint-disable
-# Vale off
-title: "API Reference Docs"
+---
+title: "API reference docs"
 layout: default
 nav_order: 4
 has_children: true
@@ -9,9 +7,14 @@ permalink: /api-reference-docs
 has_toc: false
 version: "v1.0"
 last_updated: "2025-09-03"
-# Vale on
-# markdownlint-enable
 ---
+
+<!-- markdownlint-disable -->
+<!-- vale off -->
+
+<!-- vale on -->
+<!-- markdownlint-enable -->
+
 
 <!-- markdownlint-disable MD025 -->
 <!-- markdownlint-disable MD033 -->
