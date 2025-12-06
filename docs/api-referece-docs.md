@@ -22,7 +22,7 @@ last_updated: "2025-09-03"
 <!-- markdownlint-disable MD013 -->
 
 <h1>
-  <img src="./images/logo.png" alt="Rock-Rankers Logo" width="200" style="vertical-align: middle; margin-right: 10px;"/> API reference docs
+  <img src="./images/logo.png" alt="Rock-Rankers Logo" width="200" style="vertical-align: middle; margin-right: 10px;"/> API Reference Docs
 </h1>
 <!-- markdownlint-enable MD025 MD033 -->
 <!-- markdownlint-enable MD013 -->
