@@ -30,7 +30,7 @@ last_updated: "2025-09-03"
 ## 🎸 API endpoints
 
 Rock-Rankers supports the full create, retrieve, update, and delete
-**CRUD**  operation model for RESTAPI design.
+**CRUD**  operation model for REST API design.
 
 This reference provides details for all Rock-Rankers API endpoints. Use it to learn
 how to create, retrieve, update, and delete data in the Rock-Rankers database.
@@ -69,9 +69,9 @@ the local API server, all endpoints use the mock API base URL
 
 ---
 
-## 🎸 Browse the Rock-Rankers OpenAPI spec below
+## 🎸 Browse the Rock-Rankers OpenAPI spec  
 
-🤘 [Rock-Rankers OpenAPI Specification](https://raw.githubusercontent.com/GillWrites/rock-rankers-api/main/api/rock-rankers-spec.yml)
+🤘 **[Rock-Rankers OpenAPI Specification](https://raw.githubusercontent.com/GillWrites/rock-rankers-api/main/api/rock-rankers-spec.yml)**
 
 The Rock-Rankers OpenAPI Specification shows best practices in REST API design
 with these features:
@@ -100,6 +100,7 @@ and generate code.
 View the source code, report issues, or help improve the project:
 
 **[Rock-Rankers API on GitHub](https://github.com/GillWrites/rock-rankers-api)**
+** [![GitHub Logo](./images/github-mark.png)](https://github.com/GillWrites/rock-rankers-api)
 
 Found a bug or have a suggestion?
 [Open an issue](https://github.com/GillWrites/rock-rankers-api/issues) on
