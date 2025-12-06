@@ -29,23 +29,38 @@ last_updated: "2025-09-03"
 
 ## API endpoints
 
+Rock-Rankers supports the full create, retrieve, update, and delete
+**CRUD** HTTP model.
+
 This reference provides details for all Rock-Rankers API endpoints. Use it to learn
 how to create, retrieve, update, and delete data in the Rock-Rankers database.
 
 Rock-Rankers has three main resources. Each one lets you create, read, update, and
-delete data:
+delete data.
 
 [**Bands Resource**](./API/bands.md) - Work with band data such as names,
-genres, years active, and where the bands are from. You can use POST, GET,
-PUT, PATCH, and DELETE methods.
+genres, years active, and where the bands are from.
 
+* [POST: create a new band](./API/post-band.md)
+* [PUT: update an existing band](./API/put-band.md)
+* [PATCH: partially update a band](./API/patch-band.md)
+* [DELETE: delete a band](./API/delete-band.md)
+  
 [**Albums Resource**](./API/albums.md) - Work with album data like titles,
-release dates, scores, and rankings. You can use POST, GET, PUT, PATCH, and
-DELETE methods.
+release dates, scores, and rankings.
+
+* [POST: create a new album](./API/post-album.md)
+* [PUT: update an existing album](./API/put-album.md)
+* [PATCH: partially update an album](./API/patch-album.md)
+* [DELETE: delete an album](./API/delete-album.md)
 
 [**Users Resource**](./API/users.md) - Edit subscribers for the
-Rock-Rankers platform. You can use POST, GET, PUT, PATCH, and DELETE
-methods.
+Rock-Rankers platform.
+
+* [POST: create a new user](./API/post-user.md)
+* [PUT: update an existing user](./API/put-user.md)
+* [PATCH: partially update a user](./API/patch-user.md)
+* [DELETE: delete a user](./API/delete-user.md)
 
 Each endpoint page shows you the request URL, HTTP method, parameters,
 request body format, example requests, and sample responses. When you run
