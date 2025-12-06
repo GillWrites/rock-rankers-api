@@ -1,5 +1,5 @@
 ---
-title: "API reference docs"
+title: "API Reference Docs"
 layout: default
 nav_order: 4
 has_children: true
