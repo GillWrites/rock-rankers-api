@@ -27,10 +27,10 @@ last_updated: "2025-09-03"
 <!-- markdownlint-enable MD025 MD033 -->
 <!-- markdownlint-enable MD013 -->
 
-## API endpoints
+## 🎸 API endpoints
 
 Rock-Rankers supports the full create, retrieve, update, and delete
-**CRUD** HTTP model.
+**CRUD**  operation model for RESTAPI design.
 
 This reference provides details for all Rock-Rankers API endpoints. Use it to learn
 how to create, retrieve, update, and delete data in the Rock-Rankers database.
@@ -67,7 +67,40 @@ request body format, example requests, and sample responses. When you run
 the local API server, all endpoints use the mock API base URL
 <http://localhost:3000>.
 
-### Browse the rock-rankers-api repo and OpenAPI spec below
+---
 
-* [rock-rankers api repo](https://github.com/drenn08/rock-rankers-api)
-* [OpenAPI Specification](https://raw.githubusercontent.com/GillWrites/rock-rankers-api/main/api/rock-rankers-spec.yml)
+## 🎸 Browse the Rock-Rankers OpenAPI spec below
+
+🤘 [Rock-Rankers OpenAPI Specification](https://raw.githubusercontent.com/GillWrites/rock-rankers-api/main/api/rock-rankers-spec.yml)
+
+The Rock-Rankers OpenAPI Specification shows best practices in REST API design
+with these features:
+
+**Complete Data Management** - Add, view, update, and delete users, bands, and
+albums. Every action includes clear examples showing what to send and what you
+get back.
+
+**Helpful Error Messages** - When something goes wrong, you get clear error
+messages that explain what happened and how to fix it, with tracking IDs to
+help solve problems.
+
+**Smart Data Handling** - Break large lists into pages, sort results by any
+field, and update just the fields you need. Includes checks to make sure
+emails, dates, and scores are valid.
+
+**Works with Popular Tools** - Import into
+[Postman](https://learning.postman.com/docs/sending-requests/requests/),
+[Swagger UI](https://editor.swagger.io/), or other API tools to test the API
+and generate code.
+
+---
+
+## Rock-Rankers on GitHub
+
+View the source code, report issues, or help improve the project:
+
+**[Rock-Rankers API on GitHub](https://github.com/GillWrites/rock-rankers-api)**
+
+Found a bug or have a suggestion?
+[Open an issue](https://github.com/GillWrites/rock-rankers-api/issues) on
+GitHub.
