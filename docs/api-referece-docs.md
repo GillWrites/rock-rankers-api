@@ -99,7 +99,7 @@ and generate code.
 
 View the source code, report issues, or help improve the project:
 
-**[Rock-Rankers API on GitHub](https://github.com/GillWrites/rock-rankers-api)**
+🎸 **[Rock-Rankers API on GitHub](https://github.com/GillWrites/rock-rankers-api)**
 ** [![GitHub Logo](./images/github-mark.png)](https://github.com/GillWrites/rock-rankers-api)
 
 Found a bug or have a suggestion?
