@@ -53,8 +53,8 @@ prepares your development system for a smooth Rock-Rankers experience.
 Expect this preparation to take about 30 minutes to complete.
 
 1. **Check prerequisites**
-   * Verify system compatibility. Rock-Rankers runs on any development system running a
-   current version of the Windows, MacOS, or Linux operating system.
+   * * Rock-rankers runs on any development system running a current version of Windows, macOS,
+     or Linux.
 
 2. **Install node.js**
       * Install [version 24.11.1 of `node.js`](https://nodejs.org/en/download).
