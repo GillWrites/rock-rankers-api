@@ -13,6 +13,20 @@ last_updated: "2025-12-11"
 # markdownlint-enable
 ---
 
-## Contact rock-rankers
+<!-- vale Google.Headings = NO -->
+## 📧 Contact Rock-Rankers
+<!-- vale Google.Headings = YES -->
 
-Ready for an epic music adventure? Rock-rankers would love to hear from you: hello&rockrankers.com.
+🤘 **Ready for an epic music adventure? Rock-rankers would love to hear from
+you.**
+
+Questions or feedback? Reach out:
+
+📧 email: [hello@rockrankers.com](mailto:hello@rockrankers.com)  
+<!-- vale Google.Headings = NO -->
+🐙 GitHub:
+[Open an issue](https://github.com/GillWrites/rock-rankers-api/issues)
+
+---
+
+![Music image](./images/group%20music%20for%20contact%20page.jpg)
