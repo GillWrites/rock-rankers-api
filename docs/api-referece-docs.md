@@ -41,6 +41,7 @@ delete data.
 [**Bands Resource**](./API/bands.md) - Work with band data such as names,
 genres, years active, and where the bands are from.
 
+* [GET: retrieve a band](./API/get-band.md)
 * [POST: create a new band](./API/post-band.md)
 * [PUT: update an existing band](./API/put-band.md)
 * [PATCH: partially update a band](./API/patch-band.md)
@@ -49,6 +50,7 @@ genres, years active, and where the bands are from.
 [**Albums Resource**](./API/albums.md) - Work with album data like titles,
 release dates, scores, and rankings.
 
+* [GET: retrieve an album](./API/get-album.md)
 * [POST: create a new album](./API/post-album.md)
 * [PUT: update an existing album](./API/put-album.md)
 * [PATCH: partially update an album](./API/patch-album.md)
@@ -57,6 +59,7 @@ release dates, scores, and rankings.
 [**Users Resource**](./API/users.md) - Edit subscribers for the
 Rock-Rankers platform.
 
+* [GET: retrieve a user](./API/get-user.md)
 * [POST: create a new user](./API/post-user.md)
 * [PUT: update an existing user](./API/put-user.md)
 * [PATCH: partially update a user](./API/patch-user.md)

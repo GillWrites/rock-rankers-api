@@ -17,29 +17,29 @@ last_updated: "2025-11-17"
 
 ## `PATCH`: partially update a user
 
-Use the /users endpoint to partially update an existing `user` using the `PATCH` method. `PATCH` only updates the fields included in the request body. All other fields remain unchanged.
+Use the `/users` endpoint to partially update an existing user using the `PATCH` method. `PATCH` only updates the fields included in the request body. All other fields remain unchanged.
 
-## URL
+### URL
 
 ```shell
 {server_url}/users/{id}
 ```
 
-When testing, the {server_url} is the local host: <http://localhost:3000/users/{id}>
+When testing, the {server_url} is the local host: <http://localhost:3000/users/{id}>.
 
-## Path parameters
+### Path parameters
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | `id` | integer | Yes | The unique identifier of the user to update |
 
-## Request headers
+### Request headers
 
 | Header | Type | Required | Description |
 |--------|------|----------|-------------|
 | `Content-Type` | string | Yes | Must be `application/json` |
 
-## Request body
+### Request body
 
 | Property name | Type | Required | Description |
 | ------------- | ----------- | ----------- | ----------- |
@@ -49,7 +49,7 @@ When testing, the {server_url} is the local host: <http://localhost:3000/users/{
 
 > **Note:** Include only the fields you want to update. All fields are optional.
 
-## Request syntax
+### Request syntax
 
 ```bash
 curl -X PATCH "http://localhost:3000/users/{id}" \
@@ -59,7 +59,7 @@ curl -X PATCH "http://localhost:3000/users/{id}" \
   }'
 ```
 
-## Response format
+### Response format
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
@@ -68,7 +68,7 @@ curl -X PATCH "http://localhost:3000/users/{id}" \
 | `first-name` | string | The first name of the user |
 | `email` | string | The email address of the user |
 
-## Request example
+### Request example
 
 **Original Resource:**
 
@@ -91,7 +91,7 @@ curl -X PATCH "http://localhost:3000/users/4" \
   }'
 ```
 
-## Response example
+### Response example
 
 ```json
 {
@@ -102,11 +102,11 @@ curl -X PATCH "http://localhost:3000/users/4" \
 }
 ```
 
-## Return status
+### Return status
 
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | User updated successfully |
 | 400 | Error | Invalid request body |
 | 404 | Error | Specified user not found |
-| ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+| ECONNREFUSED | N/A | Service is offline - start the service and try again |

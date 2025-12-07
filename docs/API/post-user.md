@@ -15,9 +15,9 @@ version: "v1.0"
 last_updated: "2025-11-14"
 ---
 
-## Create a new user
+## `POST` Create a new user
 
-Use the /users endpoint to create a new `user` using the `POST` method.
+Use the `/users` endpoint to create a new user using the `POST` method.
 
 ### URL
 
@@ -25,7 +25,15 @@ Use the /users endpoint to create a new `user` using the `POST` method.
 {server_url}/users
 ```
 
-### `POST` user request headers
+When testing, the {server_url} is the local host: <http://localhost:3000/bands>.
+
+### Path parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| None | - | - | This endpoint uses the base `/users` path |
+
+### Request headers
 
 | Header | Type | Required | Description |
 |--------|------|----------|-------------|
@@ -41,7 +49,7 @@ Use the /users endpoint to create a new `user` using the `POST` method.
 
 **Note:** the server auto generates the `id` field. Don't include in the request.
 
-### `POST` user request syntax
+### Request syntax
 
 ```bash
 curl -X POST http://localhost:3000/users \
@@ -91,6 +99,6 @@ curl -X POST http://localhost:3000/users \
 | ------------- | ----------- | ----------- |
 | 201 | Success | User created successfully |
 | 400 | Error | Invalid request body or missing required fields |
-| ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+| ECONNREFUSED | N/A | Service is offline - start the service and try again |
 
 ---

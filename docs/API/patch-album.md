@@ -14,37 +14,38 @@ categories:
 version: "v1.0"
 last_updated: "2025-11-17"
 ---
+<!-- vale Google.Acronyms = NO -->
 
 ## `PATCH`: partially update an album
 
-Use the /albums endpoint to partially update an existing `album` using the `PATCH` method. `PATCH` only updates the fields included in the request body. All other fields remain unchanged.
+Use the `/albums` endpoint to partially update an existing album using the `PATCH` method. `PATCH` only updates the fields included in the request body. All other fields remain unchanged.
 
-## URL
+### URL
 
 ```shell
 {server_url}/albums/{id}
 ```
 
-When testing, the {server_url} is the local host: <http://localhost:3000/albums/{id}>
+When testing, the {server_url} is the local host: <http://localhost:3000/albums/{id}>.
 
-## Path parameters
+### Path parameters
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | `id` | integer | Yes | The unique identifier of the album to update |
 
-## Request headers
+### Request headers
 
 | Header | Type | Required | Description |
 |--------|------|----------|-------------|
 | `Content-Type` | string | Yes | Must be `application/json` |
 
-## Request body
+### Request body
 
 | Property name | Type | Required | Description |
 | ------------- | ----------- | ----------- | ----------- |
-| `name` | string | No | The name of the band that created the album |
-| `album` | string | No | The name of the album |
+| `name` | string | No | The band name |
+| `album` | string | No | The album name |
 | `release-date` | integer | No | The release year of the album |
 | `album-score` | integer | No | The score rating of the album |
 | `global-album-ranking` | integer | No | The global ranking of the album |
@@ -52,7 +53,7 @@ When testing, the {server_url} is the local host: <http://localhost:3000/albums/
 
 > **Note:** Include only the fields you want to update. All fields are optional.
 
-## Request syntax
+### Request syntax
 
 ```bash
 curl -X PATCH "http://localhost:3000/albums/{id}" \
@@ -62,7 +63,7 @@ curl -X PATCH "http://localhost:3000/albums/{id}" \
   }'
 ```
 
-## Response format
+### Response format
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
@@ -74,7 +75,7 @@ curl -X PATCH "http://localhost:3000/albums/{id}" \
 | `global-album-ranking` | integer | The global ranking of the album |
 | `band-catalog-album-ranking` | integer | The ranking of the album within the band's catalog |
 
-## Request example
+### Request example
 
 **Original Resource:**
 
@@ -101,7 +102,7 @@ curl -X PATCH "http://localhost:3000/albums/3" \
   }'
 ```
 
-## Response example
+### Response example
 
 ```json
 {
@@ -115,11 +116,11 @@ curl -X PATCH "http://localhost:3000/albums/3" \
 }
 ```
 
-## Return status
+### Return status
 
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Album updated successfully |
 | 400 | Error | Invalid request body |
 | 404 | Error | Specified album not found |
-| ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+| ECONNREFUSED | N/A | Service is offline - start the service and try again |

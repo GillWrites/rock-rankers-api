@@ -14,43 +14,44 @@ categories:
 version: "v1.0"
 last_updated: "2025-11-14"
 ---
+<!-- vale Google.Acronyms = NO -->
 
 ## `PUT`: update an existing album
 
-Use the /albums endpoint to update an existing `album` using the `PUT` method. Provide all fields, even if unchanged
+Use the `/albums` endpoint to update an existing album using the `PUT` method. Provide all fields, even if unchanged.
 
-## URL
+### URL
 
 ```shell
 {server_url}/albums/{id}
 ```
 
-When testing, the {server_url} is the local host: <http://localhost:3000/albums/{id}>
+When testing, the {server_url} is the local host: <http://localhost:3000/albums/{id}>.
 
-## Path parameters
+### Path parameters
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | `id` | integer | Yes | The unique identifier of the album to update |
 
-## Request headers
+### Request headers
 
 | Header | Type | Required | Description |
 |--------|------|----------|-------------|
 | `Content-Type` | string | Yes | Must be `application/json` |
 
-## Request body
+### Request body
 
 | Property name | Type | Required | Description |
 | ------------- | ----------- | ----------- | ----------- |
-| `name` | string | Yes | The name of the band that created the album |
-| `album` | string | Yes | The name of the album |
+| `name` | string | Yes | The band name |
+| `album` | string | Yes | The album name |
 | `release-date` | integer | Yes | The release year of the album |
 | `album-score` | integer | Yes | The score rating of the album |
 | `global-album-ranking` | integer | No | The global ranking of the album |
 | `band-catalog-album-ranking` | integer | No | The ranking of the album within the band's catalog |
 
-## Request syntax
+### Request syntax
 
 ```bash
 curl -X PUT "http://localhost:3000/albums/{id}" \
@@ -65,19 +66,19 @@ curl -X PUT "http://localhost:3000/albums/{id}" \
   }'
 ```
 
-## Response format
+### Response format
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
 | `id` | integer | Unique album identifier |
-| `name` | string | The name of the band that created the album |
-| `album` | string | The name of the album |
+| `name` | string | The band name |
+| `album` | string | The album name |
 | `release-date` | integer | The release year of the album |
 | `album-score` | integer | The score rating of the album |
 | `global-album-ranking` | integer | The global ranking of the album |
 | `band-catalog-album-ranking` | integer | The ranking of the album within the band's catalog |
 
-## Request example
+### Request example
 
 **Original Resource:**
 
@@ -108,7 +109,7 @@ curl -X PUT "http://localhost:3000/albums/5" \
   }'
 ```
 
-## Response example
+### Response example
 
 ```json
 {
@@ -122,11 +123,11 @@ curl -X PUT "http://localhost:3000/albums/5" \
 }
 ```
 
-## Return status
+### Return status
 
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Album updated successfully |
 | 400 | Error | Invalid request body or missing required fields |
 | 404 | Error | Specified album not found |
-| ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+| ECONNREFUSED | N/A | Service is offline - start the service and try again |

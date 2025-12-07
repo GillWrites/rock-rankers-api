@@ -16,13 +16,21 @@ last_updated: "2025-11-14"
 ---
 ## `POST`: create a new album
 
-Use the /albums endpoint to create a new `album` using the `POST` method.
+Use the `/albums` endpoint to create a new album using the `POST` method.
 
 ### URL
 
 ```shell
 {server_url}/albums
 ```
+
+When testing, the {server_url} is the local host: <http://localhost:3000/bands>.
+
+### Path parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| None | - | - | This endpoint uses the base `/albums` path |
 
 ### Request headers
 
@@ -62,8 +70,8 @@ curl -X POST http://localhost:3000/albums \
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `name` | string | The name of the band that created the album |
-| `album` | string | The name of the album |
+| `name` | string | The band name |
+| `album` | string | The album name |
 | `release-date` | integer | The release year of the album |
 | `album-score` | integer | The score rating of the album |
 | `global-album-ranking` | integer | The global ranking of the album |
@@ -105,6 +113,6 @@ curl -X POST http://localhost:3000/albums \
 | ------------- | ----------- | ----------- |
 | 201 | Success | Album created successfully |
 | 400 | Error | Invalid request body or missing required fields |
-| ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+| ECONNREFUSED | N/A | Service is offline - start the service and try again |
 
 ---

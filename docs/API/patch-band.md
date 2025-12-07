@@ -17,29 +17,29 @@ last_updated: "2025-11-17"
 
 ## `PATCH`: partially update a band
 
-Use the /bands endpoint to partially update an existing `band` using the `PATCH` method. `PATCH` only updates the fields included in the request body. All other fields remain unchanged.
+Use the `/bands` endpoint to partially update an existing band using the `PATCH` method. `PATCH` only updates the fields included in the request body. All other fields remain unchanged.
 
-## URL
+### URL
 
 ```shell
 {server_url}/bands/{id}
 ```
 
-When testing, the {server_url} is the local host: <http://localhost:3000/bands/{id}>
+When testing, the {server_url} is the local host: <http://localhost:3000/bands/{id}>.
 
-## Path parameters
+### Path parameters
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | `id` | integer | Yes | The unique identifier of the band to update |
 
-## Request headers
+### Request headers
 
 | Header | Type | Required | Description |
 |--------|------|----------|-------------|
 | `Content-Type` | string | Yes | Must be `application/json` |
 
-## Request body
+### Request body
 
 | Property name | Type | Required | Description |
 | ------------- | ----------- | ----------- | ----------- |
@@ -50,7 +50,7 @@ When testing, the {server_url} is the local host: <http://localhost:3000/bands/{
 
 > **Note:** Include only the fields you want to update. All fields are optional.
 
-## Request syntax
+### Request syntax
 
 ```bash
 curl -X PATCH "http://localhost:3000/bands/{id}" \
@@ -60,7 +60,7 @@ curl -X PATCH "http://localhost:3000/bands/{id}" \
   }'
 ```
 
-## Response format
+### Response format
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
@@ -70,7 +70,7 @@ curl -X PATCH "http://localhost:3000/bands/{id}" \
 | `years-active` | string | The years the band was/is active |
 | `origin` | string | The origin location of the band |
 
-## Request example
+### Request example
 
 **Original Resource:**
 
@@ -94,7 +94,7 @@ curl -X PATCH "http://localhost:3000/bands/5" \
   }'
 ```
 
-## Response example
+### Response example
 
 ```json
 {
@@ -106,11 +106,11 @@ curl -X PATCH "http://localhost:3000/bands/5" \
 }
 ```
 
-## Return status
+### Return status
 
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Band updated successfully |
 | 400 | Error | Invalid request body |
-| 404 | Error | Specified band not found |
-| ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+| 404 | Error | Specified band not found. |
+| ECONNREFUSED | N/A | Service is offline - start the service and try again |

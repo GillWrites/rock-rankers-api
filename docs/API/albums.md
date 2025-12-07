@@ -25,11 +25,11 @@ Base endpoint:
 
 Provides information about albums in the Rock Rankers service.
 
-The album resource contains music albums released by the [bands resource](./bands.md). Each album links with its band through the `name` field. The `name` field references the band's name.
+The `albums` resource contains music albums released by the [bands resource](./bands.md). Each album links with its band through the `name` field. The `name` field references the band's name.
 
- Rock Rankers ranks albums both globally and within their band's catalog. [Users](./users.md) can search for albums and their rankings within the service.
+ Rock-Rankers ranks albums both globally and within their band's catalog. [Users](./users.md) can search for albums and their rankings within the service.
 
-## Resource properties
+### Resource properties
 
 Sample `albums` resource
 
@@ -47,7 +47,7 @@ Sample `albums` resource
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `name` | string | The name of the [bands resource](./bands.md) that released this album |
+| `name` | string | The band name |
 | `album` | string | The album name |
 | `release-date` | integer | The album release year |
 | `album-score` | integer | The album's score |
@@ -55,7 +55,7 @@ Sample `albums` resource
 | `band-catalog-album-ranking` | integer | The album's ranking within the band's catalog |
 | `id` | integer | The album's unique record ID |
 
-## Supported operations
+### Supported operations
 
 * `GET`
 * [`POST`: create a new album](./post-album.md)
@@ -63,7 +63,7 @@ Sample `albums` resource
 * [`PATCH`: partially update an album](./patch-album.md)
 * [`DELETE`: delete an album](./delete-album.md)
 
-## Related resources
+### Related resources
 
 * [bands resource](./bands.md) - The band that released this album
 * [users resource](./users.md) - Users who can view and interact with albums
