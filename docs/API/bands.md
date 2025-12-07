@@ -23,11 +23,11 @@ Base endpoint:
 {server_url}/bands
 ```
 
-Provides information about bands in the Rock Rankers service.
+Provides information about bands in the Rock-Rankers service.
 
-A band resource describes musical bands and their information. Each band can have many [albums](./albums.md) associated with it. [Users](./users.md) can explore and rank bands in the Rock Rankers service.
+The `bands` resource describes musical bands and their information. Each band can have many [albums](./albums.md) associated with it. [Users](./users.md) can explore and rank bands in the Rock-Rankers service.
 
-## Resource properties
+### Resource properties
 
 Sample `bands` resource
 
@@ -49,7 +49,7 @@ Sample `bands` resource
 | `origin` | string | The band's place of origin |
 | `id` | integer | The band's unique record ID |
 
-## Supported operations
+### Supported operations
 
 * `GET`
 * [`POST`: create a new band](./post-band.md)
@@ -57,7 +57,7 @@ Sample `bands` resource
 * [`PATCH`: partially update a band](./patch-band.md)
 * [`DELETE`: delete a band](./delete-band.md)
 
-## Related resources
+### Related resources
 
 * [albums resource](./albums.md) - Albums released by this band
 * [users resource](./users.md) - Users who can view and interact with the bands

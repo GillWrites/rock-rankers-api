@@ -112,7 +112,7 @@ Learn how to perform common Rock-Rankers tasks:
 
 ## 📚 Learn more
 
-### API reference docs
+### [API reference docs](./api-referece-docs.md)
 
  **View Rock-Rankers resource and endpoints**
 
@@ -126,6 +126,7 @@ Rock-rankers supports the following typical `HTTP` functions:
 
 | HTTP Method | Operation | Description |
 |-------------|-----------|-------------|
+| GET | Retrieve | Retrieve records |
 | POST | Create | Create new records |
 | PUT | Update | Update an entire record |
 | PATCH | Update | Update specific record fields |
@@ -135,6 +136,7 @@ Rock-rankers supports the following typical `HTTP` functions:
 
 **Bands**
 
+* [GET: retrieve a band](./API/get-band.md)
 * [POST: create a new band](./API/post-band.md)
 * [PUT: update an existing band](./API/put-band.md)
 * [PATCH: partially update a band](./API/patch-band.md)
@@ -142,6 +144,7 @@ Rock-rankers supports the following typical `HTTP` functions:
 
 **Albums**
 
+* [GET: retrieve an album](./API/get-album.md)
 * [POST: create a new album](./API/post-album.md)
 * [PUT: update an existing album](./API/put-album.md)
 * [PATCH: partially update an album](./API/patch-album.md)
@@ -149,6 +152,7 @@ Rock-rankers supports the following typical `HTTP` functions:
 
 **Users**
 
+* [GET: retrieve a user](./API/get-user.md)
 * [POST: create a new user](./API/post-user.md)
 * [PUT: update an existing user](./API/put-user.md)
 * [PATCH: partially update a user](./API/patch-user.md)

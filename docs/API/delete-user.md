@@ -15,39 +15,39 @@ version: "v1.0"
 last_updated: "2025-11-17"
 ---
 
-## `DELETE`: delete a user
+## `DELETE`: Delete a user
 
-Use the /users endpoint to delete an existing `user` using the `DELETE` method. This permanently removes the user from the database.
+Use the `/users` endpoint to delete an existing user using the `DELETE` method. This permanently removes the user from the database.
 
-## URL
+### URL
 
 ```shell
 {server_url}/users/{id}
 ```
 
-When testing, the {server_url} is the local host: <http://localhost:3000/users/{id}>
+When testing, the {server_url} is the local host: <http://localhost:3000/users/{id}>.
 
-## Path parameters
+### Path parameters
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | `id` | integer | Yes | The unique identifier of the user to delete |
 
-## Request headers
+### Request headers
 
 None required for delete operation.
 
-## Request body
+### Request body
 
 None required for delete operation.
 
-## Request syntax
+### Request syntax
 
 ```bash
 curl -X DELETE "http://localhost:3000/users/{id}"
 ```
 
-## Response format
+### Response format
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
@@ -56,7 +56,7 @@ curl -X DELETE "http://localhost:3000/users/{id}"
 | `first-name` | string | The first name of the user |
 | `email` | string | The email address of the user |
 
-## Request example
+### Request example
 
 **Delete this user**
 
@@ -75,14 +75,14 @@ Delete the user Robert Plan:
 curl -X DELETE "http://localhost:3000/users/4"
 ```
 
-## Response example
+### Response example
 
 No response body returned.
 
-## Return status
+### Return status
 
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | User deleted successfully |
 | 404 | Error | Specified user not found |
-| ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+| ECONNREFUSED | N/A | Service is offline - start the service and try again |

@@ -17,29 +17,29 @@ last_updated: "2025-11-14"
 
 ## `PUT`: update an existing user
 
-Use the /users endpoint to update an existing `user` using the `PUT` method. Provide all fields, even if unchanged.
+Use the `/users` endpoint to update an existing user using the `PUT` method. Provide all fields, even if unchanged.
 
-## URL
+### URL
 
 ```shell
 {server_url}/users/{id}
 ```
 
-When testing, the {server_url} is the local host: <http://localhost:3000/users/{id}>
+When testing, the {server_url} is the local host: <http://localhost:3000/users/{id}>.
 
-## Path parameters
+### Path parameters
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | `id` | integer | Yes | The unique identifier of the user to update |
 
-## Request headers
+### Request headers
 
 | Header | Type | Required | Description |
 |--------|------|----------|-------------|
 | `Content-Type` | string | Yes | Must be `application/json` |
 
-## Request body
+### Request body
 
 | Property name | Type | Required | Description |
 | ------------- | ----------- | ----------- | ----------- |
@@ -47,7 +47,7 @@ When testing, the {server_url} is the local host: <http://localhost:3000/users/{
 | `first-name` | string | Yes | The user's first name |
 | `email` | string | Yes | The user's email address |
 
-## Request syntax
+### Request syntax
 
 ```bash
 curl -X PUT "http://localhost:3000/users/{id}" \
@@ -59,7 +59,7 @@ curl -X PUT "http://localhost:3000/users/{id}" \
   }'
 ```
 
-## Response format
+### Response format
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
@@ -68,7 +68,7 @@ curl -X PUT "http://localhost:3000/users/{id}" \
 | `first-name` | string | The user's first name |
 | `email` | string | The user's email address |
 
-## Request example
+### Request example
 
 **Original Resource:**
 
@@ -93,7 +93,7 @@ curl -X PUT "http://localhost:3000/users/1" \
   }'
 ```
 
-## Response example
+### Response example
 
 ```json
 {
@@ -104,11 +104,11 @@ curl -X PUT "http://localhost:3000/users/1" \
 }
 ```
 
-## Return status
+### Return status
 
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | User updated successfully |
 | 400 | Error | Invalid request body or missing required fields |
 | 404 | Error | Specified user not found |
-| ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+| ECONNREFUSED | N/A | Service is offline - start the service and try again |

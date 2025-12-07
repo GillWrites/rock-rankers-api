@@ -15,39 +15,39 @@ version: "v1.0"
 last_updated: "2025-11-17"
 ---
 
-## `DELETE`: delete a band
+## `DELETE`: Delete a band
 
-Use the /bands endpoint to delete an existing `band` using the `DELETE` method. This permanently removes the band from the database.
+Use the `/bands` endpoint to delete an existing band using the `DELETE` method. This permanently removes the band from the database.
 
-## URL
+### URL
 
 ```shell
 {server_url}/bands/{id}
 ```
 
-When testing, the {server_url} is the local host: <http://localhost:3000/bands/{id}>
+When testing, the {server_url} is the local host: <http://localhost:3000/bands/{id}>.
 
-## Path parameters
+### Path parameters
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
 | `id` | integer | Yes | The unique identifier of the band to delete |
 
-## Request headers
+### Request headers
 
 None required for delete operation.
 
-## Request body
+### Request body
 
 None required for delete operation.
 
-## Request syntax
+### Request syntax
 
 ```bash
 curl -X DELETE "http://localhost:3000/bands/{id}"
 ```
 
-## Response format
+### Response format
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
@@ -57,7 +57,7 @@ curl -X DELETE "http://localhost:3000/bands/{id}"
 | `years-active` | string | The years the band was/is active |
 | `origin` | string | The origin location of the band |
 
-## Request example
+### Request example
 
 **delete this resource**
 
@@ -77,14 +77,14 @@ Delete the Soundgarden band:
 curl -X DELETE "http://localhost:3000/bands/5"
 ```
 
-## Response example
+### Response example
 
 No response body returned.
 
-## Return status
+### Return status
 
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Band deleted successfully |
 | 404 | Error | Specified band not found |
-| ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+| ECONNREFUSED | N/A | Service is offline - start the service and try again |

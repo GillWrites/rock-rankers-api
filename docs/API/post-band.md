@@ -15,9 +15,9 @@ version: "v1.0"
 last_updated: "2025-11-14"
 ---
 
-## Create a new band
+## `POST` create a new band
 
-Use the /bands endpoint to create a new `band` using the `POST` method.
+Use the `/bands` endpoint to create a new band using the `POST` method.
 
 ### URL
 
@@ -25,7 +25,7 @@ Use the /bands endpoint to create a new `band` using the `POST` method.
 {server_url}/bands
 ```
 
-- When testing, the {server_url} is the local host: <http://localhost:3000/bands>
+  When testing, the {server_url} is the local host: <http://localhost:3000/bands>.
 
 ### Path parameters
 
@@ -104,6 +104,6 @@ curl -X POST http://localhost:3000/bands \
 | ------------- | ----------- | ----------- |
 | 201 | Success | Band created successfully |
 | 400 | Error | Invalid request body or missing required fields |
-| ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+| ECONNREFUSED | N/A | Service is offline - start the service and try again |
 
 ---

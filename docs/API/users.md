@@ -23,12 +23,12 @@ Base endpoint:
 {server_url}/users
 ```
 
-Provides information about users in the Rock Rankers service.
+Provides information about users in the Rock-Rankers service.
 
-The user resource contains the users who subscribe to the Rock Rankers service.
-Users can view and interact with [bands resource](./bands.md) and [albums resource](./albums.md) resources.
+The `users` resource contains the users who subscribe to the Rock-Rankers service.
+Users can view and interact with the [bands resource](./bands.md) and the [albums resource](./albums.md).
 
-## Resource properties
+### Resource properties
 
 Sample `user` resource
 
@@ -43,12 +43,12 @@ Sample `user` resource
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `id` | integer | The user's unique record ID |
+| `id` | integer | The unique ID of the user's account |
 | `last-name` | string | The user's last name |
 | `first-name` | string | The user's first name |
 | `email` | string | The user's email address |
 
-## Supported operations
+### Supported operations
 
 * `GET`
 * [`POST`: create a new user](./post-user.md)
@@ -56,7 +56,7 @@ Sample `user` resource
 * [`PATCH`: partially update a user](./patch-user.md)
 * [`DELETE`: delete a user](./delete-user.md)
 
-## Related resources
+### Related resources
 
 * [bands resource](./bands.md) - Bands in the Rock Rankers service
 * [albums resource](./albums.md) - Albums in the Rock Rankers service
