@@ -108,3 +108,5 @@ View the source code, report issues, or help improve the project:
 Found a bug or have a suggestion?
 [Open an issue](https://github.com/GillWrites/rock-rankers-api/issues) on
 GitHub.
+> Include a clear title, suggestions, what you tried, what happened.  
+> Also include steps to reproduce, and your system info: OS and Node.js version.
