@@ -35,6 +35,8 @@ Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as
 <!-- markdownlint-enable MD033 -->
 
 ## 🎸 Key features
+<!-- markdownlint-disable-next-line MD033 -->
+<br>
 
 ![Key Featured](./images/Key%20features.png)
 
