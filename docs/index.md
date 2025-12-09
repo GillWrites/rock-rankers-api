@@ -134,11 +134,11 @@ Rock-rankers supports the following typical `HTTP` functions:
 
 | HTTP Method | Operation | Description |
 |-------------|-----------|-------------|
-| GET | Retrieve | Retrieve records |
-| POST | Create | Create new records |
-| PUT | Update | Update an entire record |
-| PATCH | Update | Update specific record fields |
-| DELETE | Delete | Delete a record |
+| [GET](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods/GET) | Retrieve | Retrieve records |
+| [POST](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods/POST) | Create | Create new records |
+| [PUT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods/PUT) | Update | Update an entire record |
+| [PATCH](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods/PATCH) | Update | Update specific record fields |
+| [DELETE](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods/DELETE) | Delete | Delete a record |
 
 ### - View the Rock-Rankers repo and OpenAPI specification
 
