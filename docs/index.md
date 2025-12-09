@@ -120,7 +120,7 @@ Learn how to perform common Rock-Rankers tasks:
 
 ### Checkout the [API reference docs](./api-referece-docs.md) to
 
-### View Rock-Rankers resource and endpoints
+### - View Rock-Rankers resource and endpoints
 
 * [bands](./API/bands.md)
 * [albums](./API/albums.md)
@@ -128,7 +128,7 @@ Learn how to perform common Rock-Rankers tasks:
 
 <!-- vale Google.Colons = YES -->
 
-### Learn how to edit the Rock-Rankers database
+### - Learn how to edit the Rock-Rankers database
 <!-- vale Google.Acronyms = NO -->
 Rock-rankers supports the following typical `HTTP` functions:
 
@@ -140,7 +140,7 @@ Rock-rankers supports the following typical `HTTP` functions:
 | PATCH | Update | Update specific record fields |
 | DELETE | Delete | Delete a record |
 
-### View the Rock-Rankers repo and OpenAPI specification
+### - View the Rock-Rankers repo and OpenAPI specification
 
 * [Rock-rankers api repo](https://github.com/drenn08/rock-rankers-api)
 * [View OpenAPI Specification](https://raw.githubusercontent.com/GillWrites/rock-rankers-api/main/api/rock-rankers-spec.yml)
