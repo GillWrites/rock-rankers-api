@@ -57,7 +57,7 @@ Sample `albums` resource
 
 ### Supported operations
 
-* `GET`
+* [`GET`: retrieve an album](./get-album.md)
 * [`POST`: create a new album](./post-album.md)
 * [`PUT`: update an existing album](./put-album.md)
 * [`PATCH`: partially update an album](./patch-album.md)

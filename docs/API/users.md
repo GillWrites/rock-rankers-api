@@ -50,7 +50,7 @@ Sample `user` resource
 
 ### Supported operations
 
-* `GET`
+* [`GET`: get user](./get-user.md)
 * [`POST`: create a new user](./post-user.md)
 * [`PUT`: update an existing user](./put-user.md)
 * [`PATCH`: partially update a user](./patch-user.md)
