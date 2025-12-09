@@ -130,7 +130,8 @@ Learn how to perform common Rock-Rankers tasks:
 
 ### - Learn how to edit the Rock-Rankers database
 <!-- vale Google.Acronyms = NO -->
-Rock-rankers supports the following typical `HTTP` functions:
+Rock-Rankers supports the full create, retrieve, update, and delete **CRUD** operation
+model using standard HTTP methods for REST API design.
 
 | HTTP Method | Operation | Description |
 |-------------|-----------|-------------|
