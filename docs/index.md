@@ -118,15 +118,17 @@ Learn how to perform common Rock-Rankers tasks:
 
 ## 📚 Learn more
 
-### [API reference docs](./api-referece-docs.md)
+### Checkout the [API reference docs](./api-referece-docs.md) to
 
- **View Rock-Rankers resource and endpoints**
+### - View Rock-Rankers resource and endpoints
 
 * [bands](./API/bands.md)
 * [albums](./API/albums.md)
 * [users](./API/users.md)
 
-**Edit the Rock-Rankers database**  
+<!-- vale Google.Colons = YES -->
+
+### - Learn how to edit the Rock-Rankers database
 <!-- vale Google.Acronyms = NO -->
 Rock-rankers supports the following typical `HTTP` functions:
 
@@ -138,34 +140,7 @@ Rock-rankers supports the following typical `HTTP` functions:
 | PATCH | Update | Update specific record fields |
 | DELETE | Delete | Delete a record |
 
-**Endpoints by Resource**  
-
-**Bands**
-
-* [GET: retrieve a band](./API/get-band.md)
-* [POST: create a new band](./API/post-band.md)
-* [PUT: update an existing band](./API/put-band.md)
-* [PATCH: partially update a band](./API/patch-band.md)
-* [DELETE: delete a band](./API/delete-band.md)
-
-**Albums**
-
-* [GET: retrieve an album](./API/get-album.md)
-* [POST: create a new album](./API/post-album.md)
-* [PUT: update an existing album](./API/put-album.md)
-* [PATCH: partially update an album](./API/patch-album.md)
-* [DELETE: delete an album](./API/delete-album.md)
-
-**Users**
-
-* [GET: retrieve a user](./API/get-user.md)
-* [POST: create a new user](./API/post-user.md)
-* [PUT: update an existing user](./API/put-user.md)
-* [PATCH: partially update a user](./API/patch-user.md)
-* [DELETE: delete a user](./API/delete-user.md)
-<!-- vale Google.Colons = YES -->
-  
-### View the Rock-Rankers repo and OpenAPI specification
+### - View the Rock-Rankers repo and OpenAPI specification
 
 * [Rock-rankers api repo](https://github.com/drenn08/rock-rankers-api)
 * [View OpenAPI Specification](https://raw.githubusercontent.com/GillWrites/rock-rankers-api/main/api/rock-rankers-spec.yml)

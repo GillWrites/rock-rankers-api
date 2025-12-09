@@ -51,7 +51,7 @@ Sample `bands` resource
 
 ### Supported operations
 
-* `GET`
+* [`GET`: retrieve a band](./get-band.md)
 * [`POST`: create a new band](./post-band.md)
 * [`PUT`: update an existing band](./put-band.md)
 * [`PATCH`: partially update a band](./patch-band.md)
