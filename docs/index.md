@@ -53,7 +53,6 @@ Welcome to Rock-Rankers, the ultimate API for rock fans who love data as much as
     • For example, a reminder of the top 3 Beatles albums is just a <a href="https://curl.se/"><code>curl</code></a> away.
   </div>
 </div>
-<!-- markdownlint-enable MD033 -->
 
 ```shell
 curl -X GET "http://localhost:3000/albums?name=The%20Beatles&global-album-ranking_gte=1&global-album-ranking_lte=3&_sort=global-album-ranking"
@@ -93,7 +92,7 @@ curl -X GET "http://localhost:3000/albums?name=The%20Beatles&global-album-rankin
 ]
 ```
 
----
+<hr style="border: 0.5px solid grey;">
 
 ## 🚀 Quickstart
 
@@ -103,7 +102,7 @@ production API.
 
 🚀 [Rock-Rankers quickstart tutorial](./get-started.md)
 
----
+<hr style="border: 0.5px solid grey;">
 
 ## 🤘 Tutorials
 
@@ -148,7 +147,7 @@ model using standard HTTP methods for REST API design.
 
 * [View OpenAPI Specification](https://raw.githubusercontent.com/GillWrites/rock-rankers-api/main/api/rock-rankers-spec.yml)
 
----
+<hr style="border: 0.5px solid grey;">
 
 ## 📧 Contact Rock-Rankers
 
