@@ -114,7 +114,7 @@ Learn how to perform common Rock-Rankers tasks:
 * [How to filter bands with combined query parameters](./Tutorials/tutorial-get-band-filters.md)
 * [How to filter albums with combined query parameters](./Tutorials/tutorial-get-album-filters.md)
 
----
+<hr style="border: 0.5px solid grey;">
 
 ## 📚 Learn more
 
