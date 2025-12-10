@@ -24,7 +24,7 @@ last_updated: "2025-11-22"
 <h1>
   <img src="./images/logo.png" alt="Rock-Rankers Logo" width="200" style="vertical-align: middle; margin-right: 10px;"/> Frequently asked questions
 </h1>
-<!-- markdownlint-enable MD025 MD033 -->
+<!-- markdownlint-enable MD025 -->
 <!-- markdownlint-enable MD013 -->
 
 ## About Rock-Rankers
@@ -36,7 +36,7 @@ API ranks and compares bands, albums, and songs to create clear scores and
 rankings.
 
 ### 🤘 Who created Rock-Rankers?
-<!-- markdownlint-disable MD033 -->
+
 <div style="display: flex; gap: 20px; align-items: center; margin-top: 30px;">
   <div style="flex: 1; text-align: center;">
     <img src="./images/Gill 2.jpg" alt="Gill" style="max-width: 75%; height: auto;">
@@ -52,14 +52,13 @@ You can also check out our other music API project,
     <a href="https://github.com/drenn08/tune-guide-api">TuneGuide API</a>.
   </div>
 </div>
-<!-- markdownlint-enable MD033 -->
 
 ### Is Rock-Rankers a production API?
 
 No. Rock-Rankers is a learning tool. It shows how REST APIs work and how to
 document them. It uses a local JSON server to mimic real API calls
 
-___
+<hr style="border: 0.5px solid grey;">
 
 ## Rock-Rankers evironnment
 
@@ -160,7 +159,7 @@ specific issues.
 - Check that JSON server is running at `http://localhost:3000`
 - Look at the terminal for any error messages
 
-___
+<hr style="border: 0.5px solid grey;">
 
 ### 🐙 How to contribute to Rock-Rankers
 

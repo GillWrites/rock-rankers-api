@@ -24,7 +24,7 @@ last_updated: "2025-09-03"
 <h1>
   <img src="./images/logo.png" alt="Rock-Rankers Logo" width="200" style="vertical-align: middle; margin-right: 10px;"/> API Reference Docs
 </h1>
-<!-- markdownlint-enable MD025 MD033 -->
+<!-- markdownlint-enable MD025 -->
 <!-- markdownlint-enable MD013 -->
 
 ## 🎸 API endpoints
@@ -70,7 +70,7 @@ request body format, example requests, and sample responses. When you run
 the local API server, all endpoints use the mock API base URL
 <http://localhost:3000>.
 
----
+<hr style="border: 0.5px solid grey;">
 
 ## 🎸 Browse the Rock-Rankers OpenAPI spec  
 
@@ -96,7 +96,7 @@ emails, dates, and scores are valid.
 [Swagger UI](https://editor.swagger.io/), or other API tools to test the API
 and generate code.
 
----
+<hr style="border: 0.5px solid grey;">
 
 ## 🎸 Rock-Rankers on GitHub
 

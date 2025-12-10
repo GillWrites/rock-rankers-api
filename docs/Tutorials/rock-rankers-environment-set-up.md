@@ -31,7 +31,7 @@ last_updated: "2025-12-05"
        alt="Rock-Rankers Logo"
        width="200"
        style="margin-right: 20px; flex-shrink: 0;"/>
-  <h1 style="margin: 0;">Rock-Rankers quickstart</h1>
+  <h1 style="margin: 0;">Rock-Rankers quickstart tutorial</h1>
 </div>
 <!-- vale Google.Headings = YES -->
 <!-- markdownlint-enable MD025 MD033 -->
