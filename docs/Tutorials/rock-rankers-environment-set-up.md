@@ -37,6 +37,7 @@ last_updated: "2025-12-05"
 <!-- markdownlint-enable MD025 MD033 -->
 
 <!-- vale Google.Acronyms = NO -->
+<!-- markdownlint-disable MD033 -->
 
 ## Follow these steps to get started using Rock-Rankers
 
@@ -82,6 +83,7 @@ Expect this preparation to take about 30 minutes to complete.
    You'll run your Rock-Rankers tutorials from your branch.
   
 <!-- vale Google.Acronyms = YES -->
+<hr style="border: 0.5px solid grey;">
 
 ## 🤘 Verify your Rock-Rankers development environment
 
@@ -127,6 +129,7 @@ The output should include the `rock-rankers-api.json` database.
 ```
 
 You are now ready to make a test call to the Rock-Rankers service.
+<hr style="border: 0.5px solid grey;">
 
 ## 🤘 Make a test call to the Rock-Rankers service
 
@@ -217,6 +220,7 @@ continuing. Some common situations that cause errors include:
 4. A required software component isn't up to date.
 
 If you need more help, please email rock-rankers: <hello@rockrankers.com>
+<hr style="border: 0.5px solid grey;">
 
 ## ➡️ Next steps
 
