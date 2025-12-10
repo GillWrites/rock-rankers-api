@@ -162,7 +162,7 @@ specific issues.
 
 ___
 
-### 🐙 How to contribute to Rock-Rankers?
+### 🐙 How to contribute to Rock-Rankers
 
  We'd love your help. Whether you want to improve the docs, suggest features,  
 or fix bugs, go to the Rock-Rankers GitHub repo:  
