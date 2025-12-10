@@ -100,7 +100,7 @@ Ready to rock? Explore Rock-Rankers with your own mock API server. Follow this q
 set up your local environment and make your first Rock-Rankers API call, just like a real
 production API.
 
-🚀 [Rock-Rankers quickstart tutorial](./get-started.md)
+🚀 [Rock-Rankers quickstart](./get-started.md)
 
 <hr style="border: 0.5px solid grey;">
 

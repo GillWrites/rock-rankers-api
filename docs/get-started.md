@@ -17,7 +17,7 @@ last_updated: "2025-12-11"
 <!-- markdownlint-disable MD033 -->
 <!-- vale Google.Headings = NO -->
 <h1>
-  <img src="./images/logo.png" alt="Rock-Rankers Logo" width="200" style="vertical-align: middle; margin-right: 10px;"/> Rock-Rankers quickstart tutorial
+  <img src="./images/logo.png" alt="Rock-Rankers Logo" width="200" style="vertical-align: middle; margin-right: 10px;"/> Rock-Rankers quickstart
 </h1>
 <!-- markdownlint-enable MD025 MD033 -->
 
