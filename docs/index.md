@@ -142,7 +142,9 @@ model using standard HTTP methods for REST API design.
 
 ### - View the Rock-Rankers repo and OpenAPI specification
 
-* [Rock-Rankers API repo](https://github.com/GillWrites/rock-rankers-api)[![GitHub Logo](./images/github-mark.png)](https://github.com/GillWrites/rock-rankers-api)
+* [Rock-Rankers API repo](https://github.com/GillWrites/rock-rankers-api)
+  
+[![GitHub Logo](./images/github-mark.png)](https://github.com/GillWrites/rock-rankers-api)
 
 * [View OpenAPI Specification](https://raw.githubusercontent.com/GillWrites/rock-rankers-api/main/api/rock-rankers-spec.yml)
 
