@@ -47,15 +47,16 @@ last_updated: "2025-12-05"
 
 ## 🤘 Build your Rock-Rankers development environment
 
-Rock-Rankers uses a mock API server environment that acts like a real API. The mock API uses
-JSON Server, which creates REST endpoints from your JSON data file. Following these steps
-prepares your development system for a smooth Rock-Rankers experience.
+Rock-Rankers uses a mock API server environment that acts like a real API.
+The mock API uses JSON Server, which creates REST endpoints from your JSON
+data file. Following these steps prepares your development system for a
+smooth Rock-Rankers experience.
 
 Expect this preparation to take about 30 minutes to complete.
 
 1. **Check prerequisites**
-   * * Rock-rankers runs on any development system running a current version of Windows, macOS,
-     or Linux.
+    * Rock-rankers runs on any development system running a current version of
+    Windows, macOS, or Linux.
 
 2. **Install node.js**
       * Install [version 24.11.1 of `node.js`](https://nodejs.org/en/download).
@@ -76,10 +77,11 @@ Expect this preparation to take about 30 minutes to complete.
 
 7. **Create a clone of forked Rock-Rankers API on GitHub Desktop**
    * [Install GitHub Desktop](https://desktop.github.com).
-   * Create a clone of GitHub cloud's forked Rock-Rankers API on local GitHub Desktop. This article tells you how:
+   * Create a clone of GitHub cloud's forked Rock-Rankers API on local GitHub
+   Desktop. This article tells you how:
    [Cloning a GitHub repository](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop).
-   * Create a branch from the Rock-Rankers main repository on your GitHub Desktop. This article
-   tells you how, [Managing Branches in GitHub Desktop](https://docs.github.com/en/desktop/making-changes-in-a-branch/managing-branches-in-github-desktop).
+   *Create a branch from the Rock-Rankers main repository on your GitHub Desktop.
+   This article tells you how,, [Managing Branches in GitHub Desktop](https://docs.github.com/en/desktop/making-changes-in-a-branch/managing-branches-in-github-desktop).
    You'll run your Rock-Rankers tutorials from your branch.
   
 <!-- vale Google.Acronyms = YES -->
@@ -88,7 +90,8 @@ Expect this preparation to take about 30 minutes to complete.
 ## 🤘 Verify your Rock-Rankers development environment
 
 1. To test your development system, browse to your Rock-Rankers API repository.
-   * Open a terminal and browse to your **GitHub repository workspace**. This is the
+   * Open a terminal and browse to your **GitHub repository workspace**. This is
+   the
    directory that contains your fork of the **Rock-Rankers API** repository.
 
    ```shell
@@ -101,7 +104,9 @@ Expect this preparation to take about 30 minutes to complete.
          cd /Documents/GitHub/GitHubRepos/rock-rankers-api
    ```
 
-   Verify you are in the branch you created in step 7, [Build your Rock-Rankers development environment](#-build-your-rock-rankers-development-environment). Run the following command:
+   Verify you are in the branch you created in step 7, [Build your Rock-Rankers
+   development environment](#-build-your-rock-rankers-development-environment).
+   Run the following command:
 
    ```shell
     git branch
@@ -120,7 +125,7 @@ Expect this preparation to take about 30 minutes to complete.
  
    ```
 
-2. Browse to the `/api` folder and verify you can see the JSON database.
+1. Browse to the `/api` folder and verify you can see the JSON database.
 The output should include the `rock-rankers-api.json` database.
 
 ```shell
@@ -161,7 +166,8 @@ You are now ready to make a test call to the Rock-Rankers service.
    ```
    <!-- vale Google.Exclamation = YES -->
 
-2. Open a second terminal. Make a test call to the Rock-Rankers service. This example makes a call to the resource
+2. Open a second terminal. Make a test call to the Rock-Rankers service. This
+example makes a call to the resource
 endpoint `bands`, to retrieve all band entries from the JSON database.
 
    ```shell
@@ -211,7 +217,8 @@ database, such as in this example.
    ]
 ```
 
-If you receive an error in any step of the procedure investigate. Correct the error before
+If you receive an error in any step of the procedure investigate. Correct the
+error before
 continuing. Some common situations that cause errors include:
 
 1. You mistyped a command.
@@ -224,12 +231,16 @@ If you need more help, please email rock-rankers: <hello@rockrankers.com>
 
 ## ➡️ Next steps
 
-If you see the list of bands from the Rock-Rankers service, congratulations. You're ready to
+If you see the list of bands from the Rock-Rankers service, congratulations.
+You're ready to
 move onto the next steps on your Rock-Rankers journey.
 
 * **Try repeating this call using Postman**  
 If you prefer visual tools over the command line, Postman is a great way to explore
-Rock-Rankers without writing code. Learn how to install and use the [Postman desktop app](https://www.postman.com/downloads/).
+Rock-Rankers without writing code. Learn how to install and use the
+[Postman desktop app](https://www.postman.com/downloads/).
 
 * **Learn how to perform common Rock-Rankers tasks**  
- Hurrah, you are now ready to undertake Rock-Rankers [Tutorials](../tutorials.md) to learn how to query the Rock-Rankers database. Exceptional music search capabilities await. 🎸🤘
+ Hurrah, you are now ready to undertake Rock-Rankers [Tutorials](../tutorials.md)
+ to learn how to query the Rock-Rankers database. Exceptional music
+ search capabilities await. 🎸🤘
