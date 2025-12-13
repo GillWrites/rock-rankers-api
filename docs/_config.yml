@@ -3,6 +3,8 @@ title: Rock-Rankers API
 description: API documentation for the Rock-Rankers REST API
 baseurl: "/rock-rankers-api"
 url: https://gillwrites.github.io/rock-rankers-api
+author: Gillian Deenihan
+description: API documentation by Gillian Deenihan for Rock-Rankers API
 
 # Theme
 remote_theme: just-the-docs/just-the-docs
