@@ -2,7 +2,7 @@
 # markdownlint-disable
 # vale off
 title: "Rock-Rankers quickstart tutorial"
-parent: "Rock-Rankers quickstart"
+parent: "Rock-Rankers Quickstart"
 layout: default
 nav_order: 1
 description: Describes how to configure your local computer to run a local instance of rock-rankers-api
