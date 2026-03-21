@@ -160,6 +160,39 @@ paths:
           $ref: '#/components/responses/TooManyRequests'
         '500':
           $ref: '#/components/responses/ServerError'
+      
+    put:
+      summary: Replace a user by ID
+      description: Replaces all properties of an existing user with the provided data.
+      tags:
+        - Users
+      operationId: putOneUser
+      parameters:
+        - $ref: '#/components/parameters/UserIdPathParam'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserInput'
+            examples:
+              putUser:
+                $ref: '#/components/examples/PutUser'
+      responses:
+        '200':
+          $ref: '#/components/responses/SuccessPutOneUser'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/ServerError'
 
   /bands:
     get:
@@ -848,6 +881,16 @@ components:
             updatedUser:
               $ref: '#/components/examples/UpdatedUser'
 
+    SuccessPutOneUser:
+      description: Successful response that returns the replaced user.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/User'
+          examples:
+            replacedUser:
+              $ref: '#/components/examples/ReplacedUser'
+
     SuccessDeleteOneUser:
       description: Successful response confirming user deletion.
       content:
@@ -1114,6 +1157,21 @@ components:
         last-name: "Renn"
         first-name: "David"
         email: "david.renn@uw.edu"
+
+    PutUser:
+      summary: Example of user put data
+      value:
+        last-name: "Renn"
+        first-name: "David"
+        email: "david.renn@newdomain.com"
+
+    ReplacedUser:
+      summary: Example of replaced user
+      value:
+        id: 1
+        last-name: "Renn"
+        first-name: "David"
+        email: "david.renn@newdomain.com"
 
     BandsList:
       summary: List of bands
