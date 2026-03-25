@@ -1163,7 +1163,7 @@ components:
       value:
         last-name: "Renn"
         first-name: "David"
-        email: "david.renn@newdomain.com"
+        email: "david.renn@domain.com"
 
     ReplacedUser:
       summary: Example of replaced user
