@@ -331,6 +331,39 @@ paths:
         '500':
           $ref: '#/components/responses/ServerError'
 
+    put:
+      summary: Replace a band by ID
+      description: Replaces all properties of an existing band with the provided data.
+      tags:
+        - Bands
+      operationId: putOneBand
+      parameters:
+        - $ref: '#/components/parameters/BandIdPathParam'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BandInput'
+            examples:
+              putBand:
+                $ref: '#/components/examples/PutBand'
+      responses:
+        '200':
+          $ref: '#/components/responses/SuccessPutOneBand'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/ServerError'
+
   /albums:
     get:
       summary: Get all albums
@@ -455,6 +488,39 @@ paths:
       responses:
         '200':
           $ref: '#/components/responses/SuccessDeleteOneAlbum'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '403':
+          $ref: '#/components/responses/Forbidden'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '429':
+          $ref: '#/components/responses/TooManyRequests'
+        '500':
+          $ref: '#/components/responses/ServerError'
+          
+    put:
+      summary: Replace an album by ID
+      description: Replaces all properties of an existing album with the provided data.
+      tags:
+        - Albums
+      operationId: putOneAlbum
+      parameters:
+        - $ref: '#/components/parameters/AlbumIdPathParam'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AlbumInput'
+            examples:
+              putAlbum:
+                $ref: '#/components/examples/PutAlbum'
+      responses:
+        '200':
+          $ref: '#/components/responses/SuccessPutOneAlbum'
         '400':
           $ref: '#/components/responses/BadRequest'
         '401':
@@ -947,6 +1013,16 @@ components:
             updatedBand:
               $ref: '#/components/examples/UpdatedBand'
 
+    SuccessPutOneBand:
+      description: Successful response that returns the replaced band.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Band'
+          examples:
+            replacedBand:
+              $ref: '#/components/examples/ReplacedBand'
+
     SuccessDeleteOneBand:
       description: Successful response confirming band deletion.
       content:
@@ -1002,6 +1078,16 @@ components:
           examples:
             updatedAlbum:
               $ref: '#/components/examples/UpdatedAlbum'
+
+    SuccessPutOneAlbum:
+      description: Successful response that returns the replaced album.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Album'
+          examples:
+            replacedAlbum:
+              $ref: '#/components/examples/ReplacedAlbum'
 
     SuccessDeleteOneAlbum:
       description: Successful response confirming album deletion.
@@ -1232,6 +1318,23 @@ components:
         years-active: "1960-1970"
         origin: "Liverpool, England"
 
+    PutBand:
+      summary: Example of band put data
+      value:
+        name: "The Beatles"
+        genre: "rock, pop, psychedelia"
+        years-active: "1960-1970"
+        origin: "Liverpool, England"
+
+    ReplacedBand:
+      summary: Example of replaced band
+      value:
+        id: 1
+        name: "The Beatles"
+        genre: "rock, pop, psychedelia"
+        years-active: "1960-1970"
+        origin: "Liverpool, England"
+
     AlbumsList:
       summary: List of albums
       value:
@@ -1306,3 +1409,23 @@ components:
         global-album-ranking: 1
         band-catalog-album-ranking: 1
 
+    PutAlbum:
+      summary: Example of album put data
+      value:
+        name: "The Beatles"
+        album: "Rubber Soul"
+        release-date: 1965
+        album-score: 987
+        global-album-ranking: 1
+        band-catalog-album-ranking: 1
+
+    ReplacedAlbum:
+      summary: Example of replaced album
+      value:
+        id: 1
+        name: "The Beatles"
+        album: "Rubber Soul"
+        release-date: 1965
+        album-score: 987
+        global-album-ranking: 1
+        band-catalog-album-ranking: 1
