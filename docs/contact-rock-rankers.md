@@ -3,7 +3,7 @@
 # vale off
 title: "Contact rock-rankers"
 layout: default
-nav_order: 6
+nav_order: 7
 has_children: false
 permalink: /contact rock-rankers
 has_toc: false
