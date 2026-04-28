@@ -10,6 +10,7 @@ description: API documentation by Gillian Deenihan for Rock-Rankers API
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
+  - jekyll-sitemap
 
 # Where your documentation files are located
 source: docs
