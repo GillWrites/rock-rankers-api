@@ -1,0 +1,22 @@
+engine: dasel
+scopes:
+  - expr: info.title
+    name: title
+  - expr: info.property(description?)
+    name: description
+    type: md
+  - expr: tags.all().property(description?)
+    name: description
+    type: md
+  - expr: paths.all().all().property(summary?)
+    name: summary
+    type: md
+  - expr: paths.all().all().property(description?)
+    name: description
+    type: md
+  - expr: components.responses.all().property(description?)
+    name: description
+    type: md
+  - expr: components.examples.all().property(summary?)
+    name: summary
+    type: md

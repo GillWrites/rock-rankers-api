@@ -1,3 +1,7 @@
 api/api-ranks-db-source.json
 api/api-ranks-db-source.json
 api/api-ranks-db-source.json
+
+# Vale style packages are downloaded with vale sync; keep only our config
+.github/valeStyles/*
+!.github/valeStyles/config/
