@@ -6,7 +6,7 @@ parent: "Tutorials"
 has_children: false
 permalink: /Tutorials/How-to-retrieve-band-information/
 has_toc: false
-description: "Tutorial outlinig how to query the `bands` endpoint"
+description: "Tutorial outlining how to query the `bands` endpoint"
 tags:
   - api
 categories:

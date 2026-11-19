@@ -116,7 +116,7 @@ Expect this preparation to take about 30 minutes to complete.
 
    **For example:**
 
-   In the below example, the current working brancn is **quick-start-b**.
+   In the below example, the current working branch is **quick-start-b**.
 
     ```shell
     MacBook-Air-3:rock-rankers-api gilliandeenihan$ git branch

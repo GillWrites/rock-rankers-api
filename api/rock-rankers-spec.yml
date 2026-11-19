@@ -2,7 +2,7 @@ openapi: 3.1.0
 
 info:
   title: Rock Rankers API
-  description: A REST API that aggregates and visualizes the rankings and scorings of rock bands, albums, and songs, and enables social interaction.
+  description: A REST API that aggregates and visualizes the rankings and scores of rock bands, albums, and songs, and enables social interaction.
   version: 1.0.0
   contact:
     name: Rock-Rankers Support
@@ -1104,7 +1104,7 @@ components:
                 message: "Album deleted successfully"
 
     BadRequest:
-      description: The request was malformed or contains invalid parameters.
+      description: The request contains malformed syntax or invalid parameters.
       content:
         application/json:
           schema:
@@ -1118,7 +1118,7 @@ components:
                 requestId: "req-f8d31a62-e789-4856-9452-5efa50223c7a"
 
     Unauthorized:
-      description: Authentication is required or the provided credentials are invalid.
+      description: The request requires authentication, or the provided credentials are invalid.
       content:
         application/json:
           schema:
@@ -1131,7 +1131,7 @@ components:
                 requestId: "req-f8d31a62-e789-4856-9452-5efa50223c7a"
 
     Forbidden:
-      description: The authenticated user does not have permission to access the requested resource.
+      description: The authenticated user doesn't have permission to access the requested resource.
       content:
         application/json:
           schema:
@@ -1144,7 +1144,7 @@ components:
                 requestId: "req-f8d31a62-e789-4856-9452-5efa50223c7a"
 
     NotFound:
-      description: The requested resource was not found.
+      description: The requested resource wasn't found.
       content:
         application/json:
           schema:
@@ -1257,7 +1257,7 @@ components:
         id: 1
         last-name: "Renn"
         first-name: "David"
-        email: "david.renn@newdomain.com"
+        email: "david.renn@domain.com"
 
     BandsList:
       summary: List of bands

@@ -60,7 +60,7 @@ document them. It uses a local JSON server to mimic real API calls
 
 <hr style="border: 0.5px solid grey;">
 
-## Rock-Rankers evironnment
+## Rock-Rankers environment
 
 ### 💻 Why does Rock-Rankers use a JSON environment?
 
@@ -169,7 +169,7 @@ or fix bugs, go to the Rock-Rankers GitHub repo:
 **[Rock-Rankers API on GitHub](https://github.com/GillWrites/rock-rankers-api)**
 ** [![GitHub Logo](./images/github-mark.png)](https://github.com/GillWrites/rock-rankers-api)
 
-> 🐙 GitHub: [Open an issue](
+> 🐙 GitHub: [open an issue](
 > https://github.com/GillWrites/rock-rankers-api/issues)  
 > → **Issues** → **New Issue**  
 > Include a clear title, suggestions, what you tried, what happened.  
