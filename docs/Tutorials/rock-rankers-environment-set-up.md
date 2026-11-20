@@ -69,20 +69,21 @@ Expect this preparation to take about 30 minutes to complete.
 5. **Create a fork of the Rock-Rankers API repository**
      * Browse to the
      [Rock-Rankers API repository](https://github.com/GillWrites/rock-rankers-api).
-     * Create a fork of the Rock-Rankers repository within your GitHub account. This
-     article tells you how: [Git: fork a repo](https://docs.github.com/articles/fork-a-repo).
-
+     * Create a fork of the Rock-Rankers repository in your GitHub account.
+       For steps, see
+       [Fork a repository](https://docs.github.com/articles/fork-a-repo).
 6. **Install Git command line tools**
     * Follow this article to install Git command line.[Git: command line](https://docs.github.com/en/get-started/quickstart/set-up-git).
 
 7. **Create a clone of forked Rock-Rankers API on GitHub Desktop**
    * [Install GitHub Desktop](https://desktop.github.com).
    * Create a clone of GitHub cloud's forked Rock-Rankers API on local GitHub
-   Desktop. This article tells you how:
-   [Cloning a GitHub repository](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop).
-   *Create a branch from the Rock-Rankers main repository on your GitHub Desktop.
-   This article tells you how,, [Managing Branches in GitHub Desktop](https://docs.github.com/en/desktop/making-changes-in-a-branch/managing-branches-in-github-desktop).
-   You'll run your Rock-Rankers tutorials from your branch.
+   Desktop. For steps, see
+   [Cloning and forking repositories from GitHub Desktop](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop).
+   * Create a branch from the main branch of your Rock-Rankers fork in GitHub
+  Desktop. For steps, see
+  [Managing branches in GitHub Desktop](https://docs.github.com/en/desktop/making-changes-in-a-branch/managing-branches-in-github-desktop).
+  You'll run your Rock-Rankers tutorials from your branch.
   
 <!-- vale Google.Acronyms = YES -->
 <hr style="border: 0.5px solid grey;">
